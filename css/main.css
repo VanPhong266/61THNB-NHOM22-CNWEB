@@ -1,0 +1,8 @@
+.ed-logo{
+    width: 150px;
+    height: 40px;
+}
+.new-container-fluid.navbar-brand{
+    display: flex;
+    justify-content: space-between;
+}
