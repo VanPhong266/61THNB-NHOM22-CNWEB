@@ -1,2 +1,2 @@
-# 61THNB_nhom22_môn công nghệ web
-Bài tập lớn nhóm 22 môn công nghệ web
+# 61THNB_nhom22
+Bài tập lớp : xây dựng và thiết kế web edmodo
