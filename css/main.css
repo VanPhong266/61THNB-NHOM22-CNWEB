@@ -6,13 +6,6 @@
   display: flex;
   justify-content: space-between;
 }
-.mau {
-  background-color: #ffd54f;
-}
-.canle {
-  display: flex;
-  align-items: center;
-}
 .page-content {
   width: 560px;
   padding: 65px 42px 32px;
