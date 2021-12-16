@@ -1,6 +1,5 @@
 .ed-logo {
-  width: 120px;
-  height: 40px;
+  width: auto;
 }
 .new-container-fluid.navbar-brand {
   display: flex;
@@ -50,14 +49,14 @@
   border-radius: 12px;
   margin-bottom: 8px;
 }
-
+.col-md-12{
+  padding:12 ;
+}
 .distance-learning-banner .text {
   padding: 0 32px;
   min-width: 240px;
   max-width: 730px;
 }
-
-
 .distance-learning-banner .text .title {
   font-size: 18px;
   font-weight: 700;
@@ -67,7 +66,7 @@
   flex-shrink: 0;
   height: 72px;
   width: 72px;
-  background-image:url(img/ảnh.png);
+  background-image:url();
   background-size: 72px;
 }
 .button {
