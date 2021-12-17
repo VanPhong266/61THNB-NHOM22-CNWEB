@@ -59,3 +59,36 @@
     align-items: center;
     text-align: center;
 }
+.sso-provider-name{
+    display: flex;
+    margin: 0 auto;
+    text-align: justify;
+}
+.btn.btn-primary.disabled, .btn.btn-primary:disabled {
+    border: 1px solid #f4f4f7;
+    background: #f4f4f7;
+    color: #abaeba;
+    cursor: default;
+    width: 100%;
+}
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    vertical-align: middle;
+    width: 100%;
+    background: white;
+    color: #abaeba;
+}
+.btn-link {
+    font-weight: 400;
+    color: #1a237e;
+    background-color: initial;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.sign_up{
+    color: #1a237e;
+    background-color: initial;
+}
