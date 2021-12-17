@@ -5,38 +5,7 @@
   display: flex;
   justify-content: space-between;
 }
-.page-content {
-  width: 560px;
-  padding: 65px 42px 32px;
-  justify-self: center;
-}
-.google-sso-login-icon {
-  background: url(https://new.edmodo.com/static/media/google_icon.570eadea.svg)
-    no-repeat;
-  background-size: 24px 24px;
-  width: 24px;
-  height: 24px;
-}
-.office365-sso-login-icon {
-  background: url(https://new.edmodo.com/static/media/microsoft_icon.cf649998.svg)
-    no-repeat;
-  background-size: 20px 20px;
-  width: 20px;
-  height: 20px;
-}
-.apple-sso-login-icon {
-  background: url(https://new.edmodo.com/static/media/appleid_button.e2ce7cd8.svg)
-    no-repeat;
-  background-size: 20px 20px;
-  width: 20px;
-  height: 20px;
-}
-.signup-or-container {
-  text-align: center;
-  border-collapse: 1px solid;
-  margin: auto;
-  flex-direction: row;
-}
+
 .distance-learning-banner {
   display: -webkit-flex;
   display: flex;
@@ -91,16 +60,3 @@
   line-height: 1.5;
   border-radius: 0.25rem;
 }
-h4 {
-  display: flex;
-  flex-direction: row;
-}
-h4:before, h4:after{
-  content: "";
-  flex: 1 1;
-  border-bottom: 2px solid;
-  margin: auto;
-}
-.mycolor {
-   color: #d8d8d8;
- }

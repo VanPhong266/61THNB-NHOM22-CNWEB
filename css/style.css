@@ -1,0 +1,77 @@
+.sso-button-group {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.sso-button-group .sso-login-button {
+  position: relative;
+  border: 1px solid #d5d6e0;
+  box-shadow: none;
+
+  display: -webkit-flex;
+  justify-content: center
+}
+.sso-provider-name{
+  margin: 0 100px;
+  padding: 5px;
+}
+.view-port.page-content h3 {
+  padding-top: 56px;
+  color: #3d2f2f;
+  line-height: 32px;
+}
+
+
+.page-content {
+  width: 560px;
+  padding: 65px 42px 32px;
+  justify-self: center;
+}
+.google-sso-login-icon {
+  background: url(https://new.edmodo.com/static/media/google_icon.570eadea.svg)
+   no-repeat;
+  width: 24px;
+  height: 24px;
+}
+.office365-sso-login-icon {
+  background: url(https://new.edmodo.com/static/media/microsoft_icon.cf649998.svg)
+    no-repeat;
+  width: 20px;
+  height: 20px;
+}
+.apple-sso-login-icon {
+  background: url(https://new.edmodo.com/static/media/appleid_button.e2ce7cd8.svg)
+    no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+h4 {
+  overflow: hidden;
+  text-align: center;
+}
+h4:before,
+h4:after {
+  background-color: #b8b8b8;
+  ;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+h4:before {
+  right: 0.5em;
+  margin-left: -50%;    
+}
+h4:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.my{
+  color: #b8b8b8;
+  font-size: 15px;
+}
