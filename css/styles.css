@@ -37,21 +37,7 @@ body {
 }
 
 /* làm nút  */
-.btn:not(:disabled):not(.disabled) {
-    cursor: pointer;
-}
-.usertype-picker-page .back-button {
-    position: absolute;
-}
-.SignUpPageBase .back-button {
-    position: absolute;
-}
-.eds.standard-btn-link {
-    color: #1a237e;
-}
-[type=reset], [type=submit], button, html [type=button] {
-    -webkit-appearance: button;
-}
+
 .btn-link {
     font-weight: 400;
     color: #1a237e;
