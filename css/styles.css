@@ -151,3 +151,24 @@ button {
     margin-top: 7px;
     color: #73778b;
 }
+/* not sure */
+
+.usertype-picker-page .which-account-message {
+    border-bottom: 1px solid #ebebef;
+}
+.text-center {
+    text-align: center!important;
+}
+.pb-4, .py-4 {
+    padding-bottom: 1.25rem!important;
+}
+.pt-4, .py-4 {
+    padding-top: 1.25rem!important;
+}
+.body-2-text {
+    font-size: .75rem;
+    line-height: 16px;
+}
+a{
+    color: #1a237e;
+}
