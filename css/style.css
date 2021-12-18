@@ -75,12 +75,10 @@ h4:after {
 .my{
   color: #b8b8b8;
   font-size: 15px;
-=======
-
 .new-container-fluid.navbar-brand {
     display: flex;
     justify-content: space-between;
-  }
+}
 
 .login-or {
     position: relative;
@@ -170,4 +168,7 @@ h4:after {
     color: #1a237e;
     background-color: initial;
 >>>>>>> 8fe7b3adbe052fc8e317808b1beb4306a910a5a4
+}
+.btn-group{
+  width: 100%;
 }
