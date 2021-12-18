@@ -1,0 +1,11 @@
+.navbar{
+    border-bottom: 1px solid #E3E5E8;
+    background-color: #ffffff;
+}
+.logo img {
+    max-height: 28px;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
