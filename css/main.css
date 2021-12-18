@@ -6,15 +6,13 @@
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
-=======
 .signup-or-container {
   text-align: center;
   border-collapse: 1px solid;
   margin: auto;
   flex-direction: row;
 }
->>>>>>> 8fe7b3adbe052fc8e317808b1beb4306a910a5a4
+
 .distance-learning-banner {
   display: -webkit-flex;
   display: flex;
