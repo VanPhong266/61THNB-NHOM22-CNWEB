@@ -1,11 +1,55 @@
-.navbar{
-    border-bottom: 1px solid #E3E5E8;
+.header {
     background-color: #ffffff;
+    border-bottom: 1px solid #E3E5E8;
+    line-height: 3.769;
+    font-family: "Disclaimer Regular";
+    font-weight: bold;
+    text-decoration: none;
+}
+.header-inner {
+    height: 62px;
+    width: 90%;
+    max-width: 1280px;
+    display: table;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo{
+    display: table-cell;
+    vertical-align: middle;
+
 }
 .logo img {
     max-height: 28px;
 }
-img {
-    max-width: 100%;
+.user-nav{
+    display: table-cell;
     vertical-align: middle;
+    text-align: right;
 }
+.user-nav > * {
+    display: inline-block;
+    margin: 0 0 0 25px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.header a {
+    font-family: "Disclaimer Regular";
+    color: #7e7e7e;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.submit-a-request{
+    background-color: #FFCA28;
+    color: #1B1E83 !important;
+    display: block;
+    padding: 5px 20px;
+}
+.timkiem_trai{
+    background-color: red;
+}
+

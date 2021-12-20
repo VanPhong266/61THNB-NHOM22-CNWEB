@@ -1,6 +1,12 @@
 .ed-logo {
   width: auto;
 }
+
+.header{
+  width: auto;
+  height: 60px;
+}
+
 .new-container-fluid.navbar-brand {
   display: flex;
   justify-content: space-between;
@@ -66,3 +72,5 @@
   line-height: 1.5;
   border-radius: 0.25rem;
 }
+
+
