@@ -49,7 +49,81 @@
     display: block;
     padding: 5px 20px;
 }
-.timkiem_trai{
-    background-color: red;
+main {
+    width: 100%;
+    padding: 0 0 120px 0;
+}
+.search-box {
+    width: 90%;
+    max-width: 1100px;
+    margin-bottom: 0px;
+    margin: 0 auto;
+    z-index: 100;
+}
+.search-box {
+    position: relative;
+    background: rgba(255, 255, 255, 1);
+    margin-bottom: 35px;
+    padding: 35px 0;
 }
 
+.search-container {
+    width: 66%;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+.help-center-name.homepage {
+    max-width: 460px;
+    margin: 0.5em 0;
+    font-family: "Vulf Sans Light";
+    line-height: 1.2em;
+}
+.help-center-name {
+    color: #1B1E83;
+    font-size: 80px;
+    margin: 65px 0 50px 0;
+    text-align: left;
+    font-weight: normal;
+}
+
+.search-image {
+    width: 33%;
+    position: absolute;
+    top: 5%;
+    right: 4%;
+    display: inline-block;
+}
+object.support-hero {
+    width: 100%;
+}
+.category-link-box{
+    width: 85%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.homepage-header, .library-category-title {
+    font-family: "Vulf Sans Light";
+    font-size: 48px;
+    color: #1B1E83;
+    text-align: left;
+    margin: 1em auto;
+    font-weight: normal;
+}
+.getting-started{
+    background-color: #FFF8E1;
+    
+    height: 130px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    border-radius: 0;
+    cursor: pointer;
+    display: flex;
+    
+}
+.individual-cat-icon {
+    height: 60%;
+}
+.accounts-passwords{
+    background-color: blue;
+}
