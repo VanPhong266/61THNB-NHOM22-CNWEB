@@ -72,6 +72,19 @@ h4:after {
 .my{
   color: #b8b8b8;
   font-size: 15px;
-
 }
-
+btn.btn-primary.disabled, .btn.btn-primary:disabled {
+  border: 1px solid #f4f4f7;
+  background: #f4f4f7;
+  color: #abaeba;
+  cursor: default;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #1a237e;
+  border-color: #1a237e;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
