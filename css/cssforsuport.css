@@ -127,3 +127,46 @@ object.support-hero {
 .accounts-passwords{
     background-color: blue;
 }
+
+.individual-cat-link {
+    background-color: #FFF8E1;
+    width: 46.875%;
+    height: 130px;
+    float: left;
+    margin-bottom: 50px;
+    position: relative;
+    border-radius: 0;
+    cursor: pointer;
+}
+.left-cat {
+    margin-right: 6.25%;
+}
+
+.individual-cat-icon {
+    height: 60%;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 5%;
+}
+
+.cat-text-container {
+    height: 100%;
+    width: 75%;
+    float: right;
+    position: relative;
+}
+.individual-cat-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 10%;
+    font-family: "Disclaimer Regular";
+    font-size: 25px;
+    color: #333333; 
+}
