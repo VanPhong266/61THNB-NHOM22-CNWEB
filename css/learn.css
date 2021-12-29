@@ -7,12 +7,23 @@ header{
     line-height: 50px;
     font-size: 1em;  
 }
-.img{
-    width: 850px;
-    text-align: left;
+.text-mainbo{
+    
+    flex-direction: column;
+    
 }
-text{
-    width: 100px;
+.text-main{
+    line-height: 1.3;
+    margin-bottom: 12px;
+    color: #1a237e;
+    font-size: 45px !important;
+    font-family: "Disclaimer Regular";
+    word-break: break-word;
+}
+
+p{
+    font-size: 23px !important;
+    font-family: "Disclaimer Regular";
 }
 
 
