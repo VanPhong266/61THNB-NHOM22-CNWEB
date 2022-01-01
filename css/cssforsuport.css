@@ -170,49 +170,89 @@ object.support-hero {
     font-size: 25px;
     color: #333333; 
 }
-.title-need-more-help, .library-category-title {
+.need-more-help {
     width: 90%;
     max-width: 1100px;
+    margin: 0 auto;
+}
+.homepage-header, .library-category-title {
     font-family: "Vulf Sans Light";
     font-size: 48px;
-    color: #1b1e83;
+    color: #1B1E83;
     text-align: left;
     margin: 1em auto;
     font-weight: normal;
 }
-.lua-chon-help{
+.need-help-option {
     float: left;
     width: 28%;
     margin-right: 8%;
     text-align: center;
-    
+}
+.need-help-option a{
+    color: rgba(25, 35, 126, 1);
+    font-family: "Disclaimer Regular";
+    text-decoration: none;
 }
 .need-help-icon {
     height: 175px;
     margin: 0 auto;
 }
-.title-lua-chon{
-    color: #1b1e83;
+.need-help-option-header {
+    color: #1B1E83;
+    font-family: "Vulf Sans Regular";
+    font-size: 25px;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
-.van-mau-help{
-    font-size: 21px;
+.need-help-option-text {
     font-family: "Disclaimer Regular";
+    font-size: 21px;
     margin: 0 auto;
     margin-bottom: 25px;
     text-align: center;
-    
 }
+
 .need-help-option-button {
     color: #1A237E;
     background-color: #FFCA28;
     border-radius: 5px;
     font-family: "Disclaimer Regular";
+    font-weight: bold;
+    padding: 0.7em 2em;
+    font-size: 17px;
+    display: block;
+    margin: auto;
+    border: 1px solid #dddddd;
+    text-decoration: none;
+}
+.far-right-option {
+    margin-right: 0;
+}
+
+.footer {
+    height: 60px;
+    width: 100%;
+    border-top: 1px solid #e3e3e3;
+    padding: 45px 0 60px;
+}
+.footer-nav {
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
     font-size: 17px;
-    margin: auto;
-    padding: 0.7em 2em;
-    display: block;
+    top: 50%;
+    
+    position: relative;
+    color: #6d6d6d;
+}
+.footer-nav a{  
+    content: "";
+    border-left: 1px solid rgb(164, 171, 183);
+    padding-left: 6px;
+    font-family: "Disclaimer Regular";
+    color: #6d6d6d;
+    margin-right: 4px;
+   text-decoration: none;
 }
