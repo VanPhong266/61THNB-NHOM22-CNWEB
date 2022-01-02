@@ -1,0 +1,124 @@
+.header {
+    border-bottom: 1px solid #E3E5E8;
+    line-height: 3.769;
+    font-family: "Disclaimer Regular";
+    font-weight: bold;
+    text-decoration: none;
+}
+.title-header {
+    height: 62px;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo img {
+    max-height: 28px;
+}
+.desktop-nav{
+    margin-left: 20px;
+    display: flex;
+}
+/* Nút Dropdown*/
+.nut_dropdown {
+  background-color: #ffffff;
+  color: #5c6178;
+  font-size: 16px;
+  border: none;
+  padding-right: 25px ;
+  padding-left: 25px;
+  
+}
+
+/* Thiết lập vị trí cho thẻ div với class dropdown*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Nội dung Dropdown */
+.noidung_dropdown {
+  /*Ẩn nội dụng các đường dẫn*/
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  
+}
+
+/* Thiết kế style cho các đường dẫn tronng Dropdown */
+.noidung_dropdown a {
+  color: #5c6178;
+  text-decoration: none;
+ 
+  display: block;
+  padding-left: 25px;
+  padding-right: 140px;
+  background-color: #ffffff;
+  border-right: 1px solid #E3E5E8;
+  border-top: 1px solid #E3E5E8;
+  border-left: 1px solid #E3E5E8;
+  border-bottom: 1px solid #E3E5E8;
+  font-size: 14px;
+  font-weight: 400;
+}
+.noidung_dropdown span{
+    
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+/* thay đổi màu background khi hover vào đường dẫn */
+.noidung_dropdown a:hover {color: black;}
+
+/* hiển thị nội dung dropdown khi hover */
+.dropdown:hover .noidung_dropdown {display: block;}
+
+/* Thay đổi màu background cho nút khi được hover */
+
+.dropdown:hover .nut_dropdown {background-color:#e5e5e5;}
+.dropdown:hover .nut_dropdown {color:black;}
+/*Dùng Để hiển thị nội dung*/
+.hienthi{display: block;}
+
+.bentrong{
+    padding-right: 25px ;
+    padding-left: 25px;
+    color: #5c6178;
+    text-decoration: none;
+}
+li:hover {
+    background-color: #e5e5e5;
+    color: black;
+}
+.first-content{
+    background-color: #e8eaf6;
+}
+.phandau h1{
+    font-family: "Vulf Sans Light";
+    line-height: 1;
+    margin-top: 80px;
+    margin-bottom: 12px;
+    color: #1a237e;
+    font-size: 60px;
+    font-weight: 500;
+}
+.phandau p{
+    padding-top: 30px;
+    font-family: "Vulf Sans Light";
+    font-size: 25px;
+}
+.phandau img{
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 70px;
+    padding-left: 120px;
+}
+.need-account h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #5c6178;
+    font-family: "Vulf Sans Light";
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 2px  solid #E3E5E8;
+}
