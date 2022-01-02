@@ -1,7 +1,12 @@
 .ed-logo {
   width: auto;
 }
-
+.body{
+  margin: 0;
+  padding: 0;
+  line-height: 21px;
+  background: #f4f4f7;
+}
 .header{
   width: auto;
   height: 60px;
