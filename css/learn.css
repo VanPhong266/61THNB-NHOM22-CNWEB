@@ -1,3 +1,11 @@
+body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    height: 100%;
+}
 .signup{
     padding:15px;
     background-color: #FFCA28 ;
@@ -5,8 +13,10 @@
 }
 .login{
     padding:15px;
-    background-color: rgb(255, 255, 255);
-    
+    background-color: rgb(255, 255, 255); 
+}
+.meoau{
+    margin: 0px;
 }
 .navbar-expand-lg{
     padding:0px;
@@ -24,6 +34,7 @@ header.container-fluid{
 }
 .boxp{
     margin: 0 0 20px;
+    margin-right: 10px;
 }
 
 .btn-outline-warning{
@@ -34,9 +45,8 @@ header.container-fluid{
     font-size: 18px;
     margin: 0 0 20px;
 }
-.main-body{
-    margin-left: 130px;  
-}
+
+
 
     
 
