@@ -122,3 +122,79 @@ li:hover {
     padding-bottom: 20px;
     border-bottom: 2px  solid #E3E5E8;
 }
+.type-account a{
+    color: #ff6f00;
+    text-decoration: none;
+}
+.type-account h4{
+    text-align: center;
+    background-color: #fdfae0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: "Vulf Sans Light";
+    color: #333333;
+}
+.type-account{
+    background-image: url(/img/crosshatch_background_yellowpale.png);
+    background-color: #f9fafb;
+}
+.type-account img{
+    width: 600px;
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-bottom: 25px;
+}
+.dautien{
+    padding-top: 50px;
+    color:#5c6178 ;
+    margin-right: 70px;
+    padding-right: 15px;
+}
+.type-account p{
+    margin-top: 30px;
+    font-size: 23px;
+    font-family: "Vulf Sans Light";
+    padding-bottom: 15px;
+    color:#5c6178 ;
+
+}
+.option{
+    background-color: #fdfae0;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.canlai{
+    margin-top: 25px;
+    padding-right: 99px;
+    color:#5c6178 ;
+    
+}
+.option-canlai{
+    margin-top: 25px;
+    background-color: #fdfae0;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.toolkit{
+    margin-top: 25px;
+    background-color:#e8eaf6 ;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+.bentrai{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 35px;
+}
+.benphai{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    
+}
