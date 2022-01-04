@@ -198,3 +198,18 @@ li:hover {
     padding-left: 80px;
     
 }
+.guide {
+      background-color:white ;
+
+}
+.guide h1{
+    font-family: "Vulf Sans Light";
+    color: #5c6178;
+    padding-top: 25px;
+}
+main{
+    background-color: #f9fafb;
+}
+.guide img {
+    padding-left: 0rem;
+}
