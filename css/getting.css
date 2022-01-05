@@ -49,17 +49,16 @@
 .noidung_dropdown a {
   color: #5c6178;
   text-decoration: none;
- 
   display: block;
   padding-left: 25px;
-  padding-right: 140px;
+  padding-right: 100px;
   background-color: #ffffff;
   border-right: 1px solid #E3E5E8;
   border-top: 1px solid #E3E5E8;
   border-left: 1px solid #E3E5E8;
   border-bottom: 1px solid #E3E5E8;
   font-size: 14px;
-  font-weight: 400;
+ 
 }
 .noidung_dropdown span{
     
@@ -85,10 +84,10 @@
     color: #5c6178;
     text-decoration: none;
 }
-li:hover {
-    background-color: #e5e5e5;
-    color: black;
+.desktop-nav li:hover{
+    background-color:#e5e5e5;
 }
+
 .first-content{
     background-color: #e8eaf6;
 }
@@ -136,6 +135,7 @@ li:hover {
 }
 .type-account{
     background-image: url(/img/crosshatch_background_yellowpale.png);
+    background-size: 100%;
     background-color: #f9fafb;
 }
 .type-account img{
@@ -204,12 +204,47 @@ li:hover {
 }
 .guide h1{
     font-family: "Vulf Sans Light";
+    color: #19237e;
+    padding-top: 60px;
+}
+.guide p{
+    font-size: 25px;
+    padding-right: 20px;
     color: #5c6178;
-    padding-top: 25px;
+
 }
 main{
     background-color: #f9fafb;
+    font-family: "Vulf Sans Light";
 }
-.guide img {
-    padding-left: 0rem;
+.dongke span{
+    color: #5c6178;
+    font-size: 18px;
+}
+.bangxanh{
+    background-image: url(/img/background_stars_whiteonblue.png);
+    background-size: 100%;
+    border-radius: 10px;
+}
+.khung{
+    background-image: url(/img/background_stars_color_modalv6.png);
+    background-color: blanchedalmond;
+    background-size: 100%;
+    margin-top: 90px;
+    margin-right: 20px;
+    margin-bottom: 90px;
+    border-radius: 10px;
+}
+.khung a{
+    text-decoration: none;
+    color: #ff6f00;
+}
+.khung h3 {
+    padding-left: 15px;
+}
+.gan-cuoi{
+    margin-top: 50px;
+    padding-top: 25px;
+    background-color: white;
+    
 }
