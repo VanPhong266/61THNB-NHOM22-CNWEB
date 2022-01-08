@@ -186,17 +186,29 @@
     background-color:#e8eaf6 ;
     border-radius: 15px;
     margin-bottom: 25px;
+    padding-top: 11px;
+    padding-bottom: 10px;
 }
 .bentrai{
-    padding-top: 50px;
+    padding-top: 55px;
     padding-bottom: 40px;
     padding-left: 35px;
 }
 .benphai{
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 80px;
-    
+}
+.option-button{
+    color: #1A237E;
+    background-color: #FFCA28;
+    border-radius: 8px;
+    font-family: "Disclaimer Regular";
+    padding: 0.9em 2.4em;
+    font-size: 18px;
+    margin-left: 100px;
+    border: 1px solid #dddddd;
+    text-decoration: none;
 }
 .guide {
       background-color:white ;
