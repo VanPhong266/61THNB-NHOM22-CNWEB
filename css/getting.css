@@ -246,5 +246,40 @@ main{
     margin-top: 50px;
     padding-top: 25px;
     background-color: white;
+    text-align: center;
     
+}
+.gan-cuoi a{
+    text-decoration: none;
+}
+.gan-cuoi h3{
+    text-decoration: none;
+    color: #333333;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 400;
+}
+.gan-cuoi img{
+    margin: 0 auto;
+}
+.top-buttom{
+    right: 40px;
+    bottom: 20px;
+    width: 50px;
+}
+#backtop{
+    width: 48px;
+    height: 35px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    position: fixed;
+    right: 55px;
+    bottom: 0;
+
+    cursor: pointer;
 }
