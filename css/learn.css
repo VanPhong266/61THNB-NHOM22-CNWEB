@@ -33,10 +33,11 @@ header.container-fluid{
     color: #1a237e;
     font-size: 40px ;
     font-weight: 350;
+    margin-right: -20px;
 }
 .boxp{
     margin: 0 0 20px;
-    margin-right: 10px;
+    margin-right: -60px;
 }
 
 .btn-outline-warning{
@@ -45,43 +46,24 @@ header.container-fluid{
     border-radius: 5px;
     color: #1a237e;
     font-size: 18px;
+    margin: 0 0 100px;
+}
+.p_about{
+    margin-top: 0;
+    margin-bottom: 20px;
     margin: 0 0 20px;
+    font-size: 21px;
+    font-family: sans-serif;
+    color: rgb(97, 96, 96);
 }
-.box-1{
-    background-image: url(https://info.edmodo.com/hubfs/Visual%20Assets/Page%20Assets/grid-1-image-1.png);
+.h4_about{
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin: 0 0 20px;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgb(64, 72, 167);
+    font-family:Verdana, Arial, Helvetica, sans-serif;
 }
-.box {
-    flex: 1;
-    overflow: hidden;
-    margin: 1% 1%;
-    box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
-    line-height: 0;
-    border-radius: 7px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-origin: border-box;
-    cursor: pointer;
-    min-height: 300px;
-    background-color: #E1E1E7;
-}
-.container {
-    display: flex;
-    width: 100%;
-    box-sizing: border-box;
-    height: 400px;
-    margin: 0px auto;
-}
-
-.container {
-    transition: .7s ease;
-}
-.box-image {
-    width: 110%;
-    height: calc(100% - 10vh);
-    object-fit: cover;
-    max-height: 300px;
-}
-
-
-    
+  
 
