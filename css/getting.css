@@ -4,6 +4,7 @@
     font-family: "Disclaimer Regular";
     font-weight: bold;
     text-decoration: none;
+    
 }
 .title-header {
     height: 62px;
@@ -75,8 +76,18 @@
 
 .dropdown:hover .nut_dropdown {background-color:#e5e5e5;}
 .dropdown:hover .nut_dropdown {color:black;}
-/*Dùng Để hiển thị nội dung*/
-.hienthi{display: block;}
+
+.menu-text{
+    background: #1A237E;
+    border-radius: 4px;
+    color: #fff;
+    padding: 8px 21px;
+}
+.menu-text-sign{
+    padding: 8px 21px;
+    color: #1B1E83;
+}
+
 
 .bentrong{
     padding-right: 25px ;
@@ -295,3 +306,47 @@ main{
 
     cursor: pointer;
 }
+footer{
+    color: #777777;
+    padding-bottom: 15px;
+}
+#anhfooter{
+    padding-top: 15px;
+    margin-bottom: 45px;
+}
+footer ul li {
+    list-style-type: none;
+    margin: 14px 0;
+}
+footer h4{
+    color: #636466;
+    margin: 0;
+    text-transform: unset;
+    font-family: inherit;
+    padding: 90px 10px 10px 32px;
+    font-size: 16px;
+}
+#menu-footer-nav a{
+    color: #777777;
+    font-size: 14px;
+    text-decoration: none;
+}
+.so_1{
+    width: 34%;
+}
+.so_2{
+    width: 16.5%;
+}
+.dropdown_footer a{
+     text-decoration: none;
+     font-size: 12px;
+}
+.dropdown_footer{
+    
+    border: solid 1px;
+    margin-right: 190px;
+   
+}
+.dropdown_footer:hover .noidung_dropdown {display: block;}
+
+.noidung_dropdown a:hover {background-color: #ddd; color: black;}
