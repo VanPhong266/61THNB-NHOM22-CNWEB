@@ -10,6 +10,8 @@
 .header{
   width: auto;
   height: 60px;
+  position: fixed;
+  top: 0;
 }
 
 .new-container-fluid.navbar-brand {
