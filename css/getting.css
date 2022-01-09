@@ -186,17 +186,29 @@
     background-color:#e8eaf6 ;
     border-radius: 15px;
     margin-bottom: 25px;
+    padding-top: 11px;
+    padding-bottom: 10px;
 }
 .bentrai{
-    padding-top: 50px;
+    padding-top: 55px;
     padding-bottom: 40px;
     padding-left: 35px;
 }
 .benphai{
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 80px;
-    
+}
+.option-button{
+    color: #1A237E;
+    background-color: #FFCA28;
+    border-radius: 8px;
+    font-family: "Disclaimer Regular";
+    padding: 0.9em 2.4em;
+    font-size: 18px;
+    margin-left: 100px;
+    border: 1px solid #dddddd;
+    text-decoration: none;
 }
 .guide {
       background-color:white ;
@@ -246,5 +258,40 @@ main{
     margin-top: 50px;
     padding-top: 25px;
     background-color: white;
+    text-align: center;
     
+}
+.gan-cuoi a{
+    text-decoration: none;
+}
+.gan-cuoi h3{
+    text-decoration: none;
+    color: #333333;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 400;
+}
+.gan-cuoi img{
+    margin: 0 auto;
+}
+.top-buttom{
+    right: 40px;
+    bottom: 20px;
+    width: 50px;
+}
+#backtop{
+    width: 48px;
+    height: 35px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    position: fixed;
+    right: 55px;
+    bottom: 0;
+
+    cursor: pointer;
 }
