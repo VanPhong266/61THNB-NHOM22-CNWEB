@@ -1,17 +1,22 @@
 .ed-logo {
   width: auto;
 }
+
+.header{
+  width: auto;
+  min-height: 100pc;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+
 .body{
   margin: 0;
   padding: 0;
   line-height: 21px;
   background: #f4f4f7;
-}
-.header{
-  width: auto;
-  height: 60px;
-  position: fixed;
-  top: 0;
 }
 
 .new-container-fluid.navbar-brand {
