@@ -102,19 +102,22 @@ header.container-fluid{
 .text-1{
     background-color: #5C6BC0;
     color: white;
-    height: 134px;   
+    height: 134px;  
+    position: absolute; 
 }
 .text-2{
     background-color: #5C6BC0;
     color: white;
-    height: 134px;  
+    height: 134px; 
+    position: absolute; 
 }
 .text-3{
     background-color: #5C6BC0;
     color: white;
     height: 134px;
+    position: absolute;
 }
 .carousel{
-    padding: 20px;
-    
+    padding: 20px;  
 }
+
