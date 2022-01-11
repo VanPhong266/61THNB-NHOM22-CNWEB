@@ -35,6 +35,50 @@
     position: relative;
     display: inline-block;
 }
+.dropdown-toggle {
+    cursor: pointer;
+}
+.dropdown-toggle {
+    display: inline-block;
+    vertical-align: middle;
+}
+.dropdown-menu[aria-haspopup="true"] {
+    display: block;
+}
+.dropdown-menu-end {
+    left: auto;
+    right: 0;
+}
+.dropdown-menu {
+    background: #fff;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 10%);
+    display: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    left: 0;
+    margin-top: 1px;
+    min-width: 170px;
+    padding: 10px 0;
+    position: absolute;
+    text-align: left;
+    z-index: 1000;
+}
+
+.dropdown-menu [role=menuitem] {
+    color: #333;
+    cursor: pointer;
+    display: block;
+    padding: 7px 40px 7px 20px;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    line-height: inherit;
+    width: 100%;
+}
 
 .header a {
     font-family: "Disclaimer Regular";
@@ -256,3 +300,4 @@ object.support-hero {
     margin-right: 4px;
    text-decoration: none;
 }
+
