@@ -23,6 +23,7 @@ body{
 .navbar-expand-lg{
     padding:0px;
     border-bottom: 1px solid rgb(207, 207, 207);
+    
 }
 header.container-fluid{
     padding: 0px;
@@ -65,5 +66,58 @@ header.container-fluid{
     color: rgb(64, 72, 167);
     font-family:Verdana, Arial, Helvetica, sans-serif;
 }
-  
+.col-sm-9{
+    text-align: start;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.about_text{
+    font-size: 21px;
+    font-family: sans-serif;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: rgb(90, 89, 89);
+    
+}
+.me_p{
+    font-size: 21px;
+    font-family: sans-serif;
+    color: rgb(90, 89, 89);
+    padding-right: 50px;
+}
+.onthe_about{
+    background-color: #303f9f;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-top: 4vw;
+    padding-right: 30px;
+    padding-bottom: 2vw;
+    padding-left: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-width: 0px 0px 0px 0px;
+    border-color: #eae9e9;
+    border-style: solid;
+}
+.text-1{
+    background-color: #5C6BC0;
+    color: white;
+    height: 134px;  
+    position: absolute; 
+}
+.text-2{
+    background-color: #5C6BC0;
+    color: white;
+    height: 134px; 
+    position: absolute; 
+}
+.text-3{
+    background-color: #5C6BC0;
+    color: white;
+    height: 134px;
+    position: absolute;
+}
+.carousel{
+    padding: 20px;  
+}
 

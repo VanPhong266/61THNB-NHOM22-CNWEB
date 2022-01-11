@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+
+}
+
+#main{
+
+}
+
+#header{
+  height: 60px;
+  background-color: white;
+}
+
+#nav, .subnav{
+  list-style-type: none;
+}
+
+#nav > li{
+  
+}
+
+#nav li{
+  display: inline-block;
+  position: relative;
+}
+
+#nav li a{
+  color: #5C6178;
+  text-decoration: none;
+  line-height: 60px;
+  padding: 0 24px;
+  display: inline-block;
+}
+
+#nav li:hover .subnav{
+  display: block;
+}
+
+
+#nav > li:hover > a,
+#nav .subnav li:hover a{
+  color: #5C6178;
+  background-color: #ccc;
+}
+
+#nav .subnav{
+  display: none;
+  min-width: 160px;
+  top: 100%;
+  left: 0;
+  position: absolute;
+  background-color: #ccc;
+  box-shadow: 0 0 5px black;
+}
+
+#nav .subnav a{
+  color: black;
+  padding: 0 0;
+  line-height: 38px;
+}
+
+.login-signup{
+  float: right;
+}
+
+#content{
+
+}
+
+#footer{
+
+}
