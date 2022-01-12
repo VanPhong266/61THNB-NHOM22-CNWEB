@@ -4,6 +4,16 @@
     font-family: "Disclaimer Regular";
     font-weight: bold;
     text-decoration: none;
+   
+    
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:#ffffff ;
+    border-bottom: 1px solid #E3E5E8;
     
 }
 .title-header {
@@ -123,7 +133,7 @@
 }
 .phandau img{
     width: 80%;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
     margin-left: 70px;
     padding-left: 120px;
@@ -150,7 +160,7 @@
     color: #333333;
 }
 .type-account{
-    background-image: url(/img/crosshatch_background_yellowpale.png);
+    background-image: url(/assets/img/crosshatch_background_yellowpale.png);
     background-size: 100%;
     background-color: #f9fafb;
 }
@@ -250,12 +260,12 @@ main{
     font-size: 18px;
 }
 .bangxanh{
-    background-image: url(/img/background_stars_whiteonblue.png);
+    background-image: url(/assets/img/background_stars_whiteonblue.png);
     background-size: 100%;
     border-radius: 10px;
 }
 .khung{
-    background-image: url(/img/background_stars_color_modalv6.png);
+    background-image: url(/assets/img/background_stars_color_modalv6.png);
     background-color: blanchedalmond;
     background-size: 100%;
     margin-top: 90px;
