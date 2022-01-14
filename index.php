@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edmodo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="shortcut icon" type="image/png" href="assets/img/icon.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -36,7 +35,7 @@
                         <li><a href="">Distance Learning Toolkit</a></li>
                     </ul>
                 </li>
-                <li><a href="">Blog</a></li>
+                <li><a href="blog.php">Blog</a></li>
                 <li><a href="support.php">Support</a></li>
                 <li><a href="getting-started.php">Getting Started</a></li>
                 <div id="login-signup">
@@ -71,8 +70,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-1"> <button style="margin-top: 10px;background-color: #1a237e;border-color: #1a237e;" class="btn btn-primary" name="button" value="OK"
-                                    type="button" onclick="hello()">Learn more</button>
+                            <div class="col-md-1"> <button style="margin-top: 10px;background-color: #1a237e;border-color: #1a237e;" class="btn btn-primary" name="button" value="OK" type="button" onclick="hello()">Learn more</button>
                             </div>
                         </div>
                     </div>
@@ -82,22 +80,22 @@
 
         <div style="margin-left: 88px; margin-right: 88px;" id="content">
             <div class="main_about row">
-                <div class="col-md-6">
+                <div style="text-align: center;" class="col-md-6">
                     <h4>Learn Better Together</h4>
-                    <p class="my_intro">Manage your classroom. Engage your students. Safe. Simple. Free.</p>
+                    <p>Manage your classroom. Engage your students.</p>
+                    <p>Safe. Simple. Free.</p>
                 </div>
                 <div class="col-md-6">
                     <img src="assets/img/1.webp" alt="" class="img-fluid rounded">
                 </div>
-                <div class="sign-up-section-button"><a href="LINK MỚI ĐIỀN VÀO ĐÂY"><button
-                            class="sign-up-section-button userpicker qa-test-top-userpicker-sign-up-button"><span>Sign
+                <div class="sign-up-section-button"><a href="signup.php"><button class="sign-up-section-button userpicker qa-test-top-userpicker-sign-up-button"><span>Sign
                                 up for a
                                 free account</span></button></a>
                 </div>
             </div>
             <hr>
             <div class="main_about row">
-                <div class="col-md-6">
+                <div style="text-align: center;" class="col-md-6">
                     <h4>Tools that teachers need</h4>
                     <p class="my_intro">Send messages, share class materials, and make learning accessible anywhere.
                         Save
@@ -112,7 +110,7 @@
                 <div class="col-md-6">
                     <img src="assets/img/3.webp" alt="" class="img-fluid rounded">
                 </div>
-                <div class="col-md-6">
+                <div style="text-align: center;" class="col-md-6">
                     <h4>A platform students love</h4>
                     <p class="my_intro">Raise your confidence, find your voice, and experience what it means to be a
                         digital
@@ -120,7 +118,7 @@
                 </div>
             </div>
             <hr>
-            <div class="main_about row">
+            <div style="text-align: center;" class="main_about row">
                 <div class="col-md-6">
                     <h4>Updates that parents want</h4>
                     <p class="my_intro">Get class updates, stay in sync with teachers, and support learning at home. See
@@ -141,136 +139,75 @@
                         <section id="anhfooter">
                             <img src="assets//img/edmodo.png" alt="">
                         </section>
-                        <section id="custom_html-2"
-                            class="widget_text fusion-footer-widget-column widget widget_custom_html"
-                            style="border-style: solid;border-color:transparent;border-width:0px;">
+                        <section id="custom_html-2" class="widget_text fusion-footer-widget-column widget widget_custom_html" style="border-style: solid;border-color:transparent;border-width:0px;">
                             <div class="textwidget custom-html-widget">
                                 <p style="font-size: 18px !important">Edmodo is a global education network that helps
-                                    connect all learners with the people and resources needed to reach their full
-                                    potential.
+                                    connect all learners with the people and resources needed to reach their full potential.
                                 </p>
                                 <p style="font-size: 18px !important">Edmodo © 2021</p>
-                                <p style="font-size: 10px !important">Edmodo is ultimately owned and controlled by
-                                    NetDragon
+                                <p style="font-size: 10px !important">Edmodo is ultimately owned and controlled by NetDragon
                                     Websoft Holdings Limited, a public company principally based in Hong Kong with
-                                    operations in China, traded on the Hong Kong Stock Exchange (HKSE: 777), and
-                                    ultimately
+                                    operations in China, traded on the Hong Kong Stock Exchange (HKSE: 777), and ultimately
                                     majority owned by Chinese persons located in China.
                                 </p>
                             </div>
                             <div style="clear:both;"></div>
                         </section>
                         <div class="dropdown_footer">
-                            <button class="nut_dropdown"><a href="#"
-                                    class="js-wpml-ls-item-toggle wpml-ls-item-toggle"><img class="wpml-ls-flag"
-                                        src="https://9kyhf3crb4ah2d0m726aoc6x-wpengine.netdna-ssl.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png"
-                                        alt="en" title="English"><span class="wpml-ls-native">
-                                        English</span></a></button>
-                            <div class="noidung_dropdown">
-                                <a href="#"><img class="wpml-ls-flag"
-                                        src="https://9kyhf3crb4ah2d0m726aoc6x-wpengine.netdna-ssl.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/es.png"
-                                        alt="es" title="Español"><span class="wpml-ls-native" style="color: #0d6efd;">
-                                        Español(spanish)</span></a>
-                            </div>
+                        <span class="material-icons-outlined">
+public
+</span>
+                            <button class="nut_dropdown"><a href="#" class="js-wpml-ls-item-toggle wpml-ls-item-toggle"><img class="wpml-ls-flag" src="https://9kyhf3crb4ah2d0m726aoc6x-wpengine.netdna-ssl.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en" title="English"><span class="wpml-ls-native"> English</span></a></button>
+                            <span class="material-icons">
+                                arrow_drop_down
+                            </span>
                         </div>
                     </div>
                     <div class="so_2 col-lg-2 col-md-2 col-sm-2">
                         <h4>Company</h4>
                         <ul id="menu-footer-nav" class="menu">
-                            <li id="menu-item-8917"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8917"><a
-                                    href="https://info.edmodo.com/about"><span class="link-text"> About</span><span
-                                        class="arrow"></span></a></li>
-                            <li id="menu-item-3618"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3618"><a
-                                    href="https://go.edmodo.com/newsroom/"><span class="link-text"> News</span><span
-                                        class="arrow"></span></a></li>
-                            <li id="menu-item-365"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365"><a
-                                    href="https://go.edmodo.com/careers/"><span class="link-text"> Careers</span><span
-                                        class="arrow"></span></a></li>
-                            <li id="menu-item-1512"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1512"><a
-                                    href="https://go.edmodo.com/privacy-policy/"><span class="link-text">
-                                        Privacy</span><span class="arrow"></span></a></li>
-                            <li id="menu-item-1513"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1513"><a
-                                    href="https://go.edmodo.com/terms-of-service/"><span class="link-text"> Terms of
+                            <li id="menu-item-8917" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8917"><a href="#"><span class="link-text">About</span><span class="arrow"></span></a></li>
+                            <li id="menu-item-3618" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3618"><a href="#"><span class="link-text">News</span><span class="arrow"></span></a></li>
+                            <li id="menu-item-365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365"><a href="#"><span class="link-text">Careers</span><span class="arrow"></span></a></li>
+                            <li id="menu-item-1512" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1512"><a href="#"><span class="link-text">Privacy</span><span class="arrow"></span></a></li>
+                            <li id="menu-item-1513" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1513"><a href="#"><span class="link-text">Terms of
                                         Service</span><span class="arrow"></span></a></li>
-                            <li id="menu-item-366"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366"><a
-                                    href="https://go.edmodo.com/contact/"><span class="link-text"> Contact
-                                        Us</span><span class="arrow"></span></a></li>
+                            <li id="menu-item-366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366"><a href="#"><span class="link-text">Contact Us</span><span class="arrow"></span></a></li>
                         </ul>
                     </div>
                     <div class="so_2 col-lg-2 col-md-2 col-sm-2">
                         <h4>Learn More</h4>
                         <ul id="menu-footer-nav" class="menu">
-                            <li id="menu-item-1519"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1519"><a
-                                    href="https://go.edmodo.com/teachers/"><span class="link-text"> Teachers</span><span
-                                        class="arrow"></span></a></li>
-                            <li id="menu-item-1518"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1518"><a
-                                    href="https://go.edmodo.com/students/"><span class="link-text"> Students</span><span
-                                        class="arrow"></span></a></li>
-                            <li id="menu-item-1517"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1517"><a
-                                    href="https://go.edmodo.com/parents/"><span class="link-text"> Parents</span><span
-                                        class="arrow"></span></a></li>
-                            <li id="menu-item-1520"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a
-                                    href="https://go.edmodo.com/schools/"><span class="link-text"> Schools, Districts,
-                                        &amp;
+                            <li id="menu-item-1519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1519"><a href="LearnMore-Teachers.php"><span class="link-text"> Teachers</span><span class="arrow"></span></a></li>
+                            <li id="menu-item-1518" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1518"><a href="LearnMore-Students.php"><span class="link-text"> Students</span><span class="arrow"></span></a></li>
+                            <li id="menu-item-1517" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1517"><a href="LearnMore-Parents.php"><span class="link-text"> Parents</span><span class="arrow"></span></a></li>
+                            <li id="menu-item-1520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a href="#"><span class="link-text"> Schools, Districts, &amp;
                                         Organizations</span><span class="arrow"></span></a></li>
-                            <li id="menu-item-6676"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6676"><a
-                                    href="https://go.edmodo.com/distancelearning/"><span class="link-text"> Distance
+                            <li id="menu-item-6676" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6676"><a href="#"><span class="link-text"> Distance
                                         Learning Toolkit</span><span class="arrow"></span></a></li>
                         </ul>
                     </div>
                     <div class="so_2 col-lg-2 col-md-2 col-sm-2">
                         <h4>Resources</h4>
                         <ul id="menu-footer-nav" class="menu">
-                            <li id="menu-item-4051"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4051"><a
-                                    href="https://labs.edmodo.com/"><span class="link-text"> Edmodo Labs</span><span
-                                        class="arrow"></span></a></li>
-                            <li id="menu-item-1514"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1514"><a
-                                    href="https://blog.edmodo.com"><span class="link-text"> Blog</span><span
-                                        class="arrow"></span></a></li>
-                            <li id="menu-item-1516"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1516"><a
-                                    target="_blank" rel="noopener" href="http://support.edmodo.com"><span
-                                        class="link-text">
+                            <li id="menu-item-1514" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1514"><a href="blog.php"><span class="link-text"> Blog</span><span class="arrow"></span></a></li>
+                            <li id="menu-item-1516" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1516"><a target="_blank" rel="noopener" href="support.php"><span class="link-text">
                                         Support</span><span class="arrow"></span></a></li>
-                            <li id="menu-item-4052"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4052"><a
-                                    href="https://go.edmodo.com/getting-started/?utm_source=main&amp;utm_medium=visitor-site&amp;utm_content=footer"><span
-                                        class="link-text"> Getting Started</span><span class="arrow"></span></a></li>
+                            <li id="menu-item-4052" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4052"><a href="getting-started.php"><span class="link-text"> Getting Started</span><span class="arrow"></span></a></li>
                         </ul>
                     </div>
                     <div class="so_2 col-lg-2 col-md-2 col-sm-2">
                         <h4>Connect</h4>
                         <ul id="menu-footer-nav" class="menu">
-                            <li id="menu-item-1521"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1521"><a
-                                    href="http://twitter.com/edmodo"><span class="link-text"> Twitter</span><span
-                                        class="arrow"></span></a></li>
-                            <li id="menu-item-1522"
-                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1522"><a
-                                    href="http://www.facebook.com/edmodo/"><span class="link-text"> Facebook</span><span
-                                        class="arrow"></span></a></li>
+                            <li id="menu-item-1521" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1521"><a href="http://twitter.com/"><span class="link-text">Twitter</span><span class="arrow"></span></a></li>
+                            <li id="menu-item-1522" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1522"><a href="http://www.facebook.com/nhuchuabaogiotungtontai"><span class="link-text">Facebook</span><span class="arrow"></span></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </div>
 </body>
 

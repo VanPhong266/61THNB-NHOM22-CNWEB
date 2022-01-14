@@ -19,7 +19,7 @@ html{
   right: 0;
   height: 60px;
   background-color: white;
-  box-shadow: 0 0 10 #5C6178;
+  padding: 0 29px;
 }
 
 #nav{
@@ -112,11 +112,6 @@ html{
 
 
 
-#footer{
-  margin-left: 88px;
-  margin-right: 88px;
-
-}
 footer{
   color: #777777;
   padding-bottom: 15px;
@@ -155,7 +150,7 @@ footer h4{
 .dropdown_footer{
   
   border: solid 1px;
-  margin-right: 88px;
+  margin-right: 190px;
  
 }
 .dropdown_footer:hover .noidung_dropdown {display: block;}
