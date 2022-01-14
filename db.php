@@ -3,11 +3,11 @@
     $host='localhost';
     $username='root';
     $password='';
-    $dbname='edmono';
+    $dbname='edmodo';
 
     $conn=mysqli_connect($host,$username,$password,$dbname);
     if(!$conn){
-        die('không thể kết nối MySQL: '.mysql_error());
+        die('không thể kết nối MySQL: '.mysqli_error());
     }
 
 ?>

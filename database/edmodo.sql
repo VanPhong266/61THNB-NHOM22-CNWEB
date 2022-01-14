@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th1 14, 2022 lúc 03:42 PM
+-- Thời gian đã tạo: Th1 14, 2022 lúc 05:51 PM
 -- Phiên bản máy phục vụ: 10.4.21-MariaDB
 -- Phiên bản PHP: 8.0.12
 
@@ -146,11 +146,22 @@ INSERT INTO `lophoc` (`ma_lop`, `tenlop`, `ma_gv`, `ma_hs`) VALUES
 --
 
 CREATE TABLE `nguoidung` (
-  `ma_nguoidung` int(10) UNSIGNED NOT NULL,
-  `tendangnhap` varchar(30) NOT NULL,
-  `email` varchar(50) NOT NULL,
-  `matkhau` varchar(30) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+  `id` int(11) NOT NULL,
+  `name` varchar(30) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `password` varchar(250) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `status` int(11) NOT NULL DEFAULT 0,
+  `email_verification_link` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `email_verified_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `nguoidung`
+--
+
+INSERT INTO `nguoidung` (`id`, `name`, `email`, `password`, `status`, `email_verification_link`, `email_verified_at`) VALUES
+(1, 'admin', '', '123123', 0, '', NULL),
+(3, 'Hì', 'lotaynaongo@gmail.com', '$2y$10$DGgID4X2QxPTSuUoqFwD2u.c/vFt3UmraKtdMPjZyVUKErI5G1gPy', 0, '9457c62de6f7d7c8f9b10300eec991979761', NULL);
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -187,8 +198,7 @@ ALTER TABLE `lophoc`
 -- Chỉ mục cho bảng `nguoidung`
 --
 ALTER TABLE `nguoidung`
-  ADD PRIMARY KEY (`ma_nguoidung`),
-  ADD UNIQUE KEY `tendangnhap` (`tendangnhap`),
+  ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `email` (`email`);
 
 --
@@ -199,7 +209,7 @@ ALTER TABLE `nguoidung`
 -- AUTO_INCREMENT cho bảng `nguoidung`
 --
 ALTER TABLE `nguoidung`
-  MODIFY `ma_nguoidung` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Các ràng buộc cho các bảng đã đổ

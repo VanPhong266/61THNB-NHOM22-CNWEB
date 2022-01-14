@@ -57,7 +57,7 @@
                                         </path>
                                     </svg></div>
                                 <div class="desc-col col-15">
-                                    <div class="button-title"><span>Teacher Account</span></div>
+                                    <div class="button-title"><a href="signupteacher.php">Teacher Account</a></div>
                                     <div class="button-description"><span>For teachers, co-teachers, admins, coaches,
                                             club advisors, instructional tech</span></div>
                                 </div>
@@ -73,7 +73,7 @@
                                         </path>
                                     </svg></div>
                                 <div class="desc-col col-15">
-                                    <div class="button-title"><span>Student Account</span></div>
+                                    <div class="button-title"><a href="signupstudent.php">Student Account</a></div>
                                     <div class="button-description"><span>For students, class participants, club
                                             members, etc</span></div>
                                 </div>
@@ -89,7 +89,7 @@
                                         </path>
                                     </svg></div>
                                 <div class="desc-col col-15">
-                                    <div class="button-title"><span>Parent Account</span></div>
+                                    <div class="button-title"><a href="signupparrent.php">Parent Account</a></div>
                                     <div class="button-description"><span>For parents or guardians</span></div>
                                 </div>
                             </div>

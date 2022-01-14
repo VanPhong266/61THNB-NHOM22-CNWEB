@@ -70,15 +70,15 @@
                 </button>
             </div>
             <!-- tạo form đăng nhập gồm tên tk  -->
-            <form>
+            <form action="process-login.php" method="post">
                 <div class="position-relative form-group"><input name="username" placeholder="Email or Username"
                         type="username" class="qa-test-login-username form-control-lg form-control" value=""></div>
                 <div class="position-relative form-group"><input name="password" placeholder="Password" id="password"
                         type="password" class="qa-test-login-password form-control-lg form-control" value=""></div>
                 <div class="forgot-password-container text-center"><button type="button"
                         class="qa-test-forgot-password-btn btn btn-link"><span>Forgot password?</span></button></div>
-                <button id="qa-test-lightbox-login" disabled=""
-                    class="btn btn-primary btn-lg btn-block disabled"><span>
+                <button type="submit" name="btnlogin" id="qa-test-lightbox-login"
+                    class="btn btn-primary btn-lg"><span>
                         Log In</span>
                     </button>
             </form>
