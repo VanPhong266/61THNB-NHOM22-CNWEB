@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th1 14, 2022 lúc 11:06 AM
+-- Thời gian đã tạo: Th1 14, 2022 lúc 02:13 PM
 -- Phiên bản máy phục vụ: 10.4.21-MariaDB
 -- Phiên bản PHP: 8.0.12
 
@@ -75,6 +75,19 @@ CREATE TABLE `lophoc` (
   `ma_hs` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `nguoidung`
+--
+
+CREATE TABLE `nguoidung` (
+  `ma_nguoidung` int(10) UNSIGNED NOT NULL,
+  `tendangnhap` varchar(30) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `matkhau` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 --
 -- Chỉ mục cho các bảng đã đổ
 --
@@ -105,6 +118,24 @@ ALTER TABLE `lophoc`
   ADD PRIMARY KEY (`ma_lop`),
   ADD KEY `ma_gv` (`ma_gv`),
   ADD KEY `ma_hs` (`ma_hs`);
+
+--
+-- Chỉ mục cho bảng `nguoidung`
+--
+ALTER TABLE `nguoidung`
+  ADD PRIMARY KEY (`ma_nguoidung`),
+  ADD UNIQUE KEY `tendangnhap` (`tendangnhap`),
+  ADD UNIQUE KEY `email` (`email`);
+
+--
+-- AUTO_INCREMENT cho các bảng đã đổ
+--
+
+--
+-- AUTO_INCREMENT cho bảng `nguoidung`
+--
+ALTER TABLE `nguoidung`
+  MODIFY `ma_nguoidung` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- Các ràng buộc cho các bảng đã đổ
