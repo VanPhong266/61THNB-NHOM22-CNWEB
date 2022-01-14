@@ -94,13 +94,17 @@ html{
 }
 
 #learnmore{
+  margin-left: 88px;
+  margin-right: 88px;
+  border-radius: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   background-color: #e8eaf6;
   margin-top: 70px;
-
 }
 
 #content{
-  background-color: black;
+  background-color: #ffffff;
   margin-top: 70px;
 
 }
