@@ -75,7 +75,7 @@
                 <div class="signup-or-container">
                     
 
-                    <input type="submit" name="btnSigup" class="btn btn-primary btn-lg btn-block " >
+                    <input type="submit" name="btnSigup" value="Create your account" class="btn btn-primary btn-lg btn-block " >
                     </input>
 
                     
