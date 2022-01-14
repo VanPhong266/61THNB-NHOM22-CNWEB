@@ -198,3 +198,69 @@ element.style {
 .hs-custom-style .hs-input, .hs-custom-style fieldset {
     max-width: 100%;
 }
+.hs-fieldtype-intl-phone.hs-input .hs-input {
+    margin-bottom: 0;
+}
+.hs-fieldtype-intl-phone.hs-input select {
+    float: left;
+    width: 30%!important;
+}
+.hs-custom-style .hs-input, .hs-custom-style fieldset {
+    max-width: 100%;
+}
+.hs-fieldtype-intl-phone.hs-input {
+    padding: 0;
+    background: none;
+    border: none;
+    height: auto;
+}
+.hs-fieldtype-intl-phone.hs-input input {
+    width: 68%!important;
+    float: right;
+}
+
+.table-contents-footer{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.image-table {
+    display: block;
+    margin-bottom: 50px;
+}
+img {
+    border-style: none;
+    vertical-align: top;
+    
+    height: auto;
+}
+.image-t {
+    display: block;
+}
+.table-contents .table-columns .col-lg-2:first-child, .table-contents .table-columns .col-md-2:first-child,.table-contents .table-columns .col-sm-2:first-child {
+    width: 34%;
+}
+.table-contents  footer .table-columns {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.table-1{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px;
+    position: relative;
+    padding: 30px 10px 20px;
+    border-top: 1px solid #e0e0e0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #777777;
+    
+}
+.table-table-2{
+    margin-top: 74px;
+    
+}
+.table-contents .table-columns .col-lg-2, .table-contents .table-columns.col-md-2, .table-contents .table-columns .col-sm-2 {
+    width: 16.5%;
+}
+
+
