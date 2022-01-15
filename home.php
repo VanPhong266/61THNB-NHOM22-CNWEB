@@ -182,9 +182,10 @@
                     </div>
                     <div class="col-md-6">
                         <div class="commit-text mt-5">
+                            <form action="process-add.php" method="post" enctype="multipart/form-data">
                             <div class="textcomit" style=" border-radius: 5px;
                             padding: 20px; background-color: rgb(240, 240, 240);">
-                                <input type="text" style="height: 66px;" class="form-control"
+                                <input type="text" name="content" style="height: 66px;" class="form-control"
                                     placeholder="Type your note here..." aria-label="search"
                                     aria-describedby="basic-addon1">
                                 <input type="text" style="margin-top: 15px;" class="form-control"
@@ -193,20 +194,21 @@
                                     <div class="text-cancel">
                                         <div class="cancel">
                                             <span style="display: inline-block; ">
-                                                <i class="bi bi-image-fill"></i>
-                                                <i class="bi bi-briefcase-fill"></i>
+                                            <input type="text" name="image">
+                                            <i class="bi bi-image-fill"></i>                                              
                                             </span>
                                             <div class=" center-s" style="float: right;">
                                                 <button data-action="postbox-reset"
                                                     class="btn btn-link"><span>Cancel</span></button>
                                                 <span class="action"><span>or</span></span>
-                                                <button data-action="postbox-submit" role="button" disabled=""
-                                                    class="post-btn qa-test-post-btn btn btn-primary disabled">Post</button>
+                                                <button data-action="postbox-submit" name="post" role="button"
+                                                    class="post-btn qa-test-post-btn btn btn-primary">Post</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            </form>
                             <div class="dropdown" style="float:right; border:0px;">
                                 <button class=" dropdown-toggle"
                                     style="border: 0px; background-color: white;font-size: 13px; color: rgb(129, 129, 129);"

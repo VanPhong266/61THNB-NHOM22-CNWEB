@@ -7,7 +7,7 @@
 
     $conn=mysqli_connect($host,$username,$password,$dbname);
     if(!$conn){
-        die('không thể kết nối MySQL: '.mysqli_error());
+        die('không thể kết nối MySQL: '.mysqli_connect_error());
     }
 
 ?>
