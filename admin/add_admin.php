@@ -9,10 +9,11 @@
 ?>
     <main>
     <div class="container">
+        <button><a href="manage-admin.php">Back</a></button>
         <h5 class="text-center text-primary mt-5">Thêm mới Admin</h5>
         <form class="form-dki-admin"action="process-add-admin.php" method="POST">
             <div class="form-group">
-                <label for="txtUser">Tên đăng nhập</label>
+                <label for="txtUser">Tên Đăng Nhập</label>
                 <input type="text" class="form-control" id="txtUser" name="txtUser" placeholder="Nhập tên đăng nhập">
             </div>
             
@@ -22,12 +23,12 @@
             </div>
 
             <div class="form-group">
-                <label for="inputPassword">password</label>
+                <label for="inputPassword">Password</label>
                 <input type="password" class="form-control" id="inputPassword" name="txtPass1" placeholder="Nhập pass">
             </div>
             <div class="form-group">
                 <label for="inputRetypePassword">Retype Password</label>
-                <input type="password" class="form-control" id="inputRetypePassword" name="txtPass2" placeholder="Nhập pass">
+                <input type="password" class="form-control" id="inputRetypePassword" name="txtPass2" placeholder="Nhập lại pass">
             </div>
             <button type="submit" name="btnSignIn"class="btn btn-primary mt-3">Thêm mới</button>
        

@@ -33,7 +33,7 @@
 
        if($result02==TRUE){
            echo"tài khoản đã được thêm";
-           header("location:admin.php");
+           header("location:manage-admin.php");
        }
        else{
            $error = "Can not insert record.Please check....";
