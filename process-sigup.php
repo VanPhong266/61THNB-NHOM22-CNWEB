@@ -37,7 +37,9 @@ if(isset($_POST['btnSigup']) && $_POST['email'])
         $name=$_POST['name'];
         $email=$_POST['email'];
         $pass= $_POST['password'];
-        $sql = "INSERT INTO nguoidung(name, email, email_verification_link ,password) VALUES('$name', '$email', '$token', '$pass')";
+        $pass_md5= md5($pass);
+
+        $sql = "INSERT INTO nguoidung(name, email, email_verification_link ,password) VALUES('$name', '$email', '$token', '$pass_md5')";
 
         mysqli_query($conn, $sql);
         // yêu cầu người dùng nhấn vào link kích hoạt
