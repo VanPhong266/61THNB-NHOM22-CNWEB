@@ -16,7 +16,7 @@
     <div id="login-page" class="view-port">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container ">
-                <a class="navbar-brand mx-auto order-0" href="index.html">
+                <a class="navbar-brand mx-auto order-0" href="index.php">
                     <img src="assets/img/edmodo.png" alt="" class="ed-logo">
                 </a>
             </div>
@@ -26,7 +26,7 @@
                 <span>Sign up as a parent</span>
                 
             </h3>
-            <form action="process-sigupstudent.php" method="post">
+            <form action="process-sigup.php" method="post">
             <div class="mt-3"><div class="position-relative form-group"><input name="name" id="name" placeholder=" Username"
                         type="text" class="qa-test-login-username form-control-lg form-control" value=""></div></div>
                         <div class="mt-3"><div class="position-relative form-group"><input name="email" id="email" placeholder="Email Address"
@@ -37,7 +37,7 @@
                 <div class="mt-3"><div class="position-relative form-group"><input name="cpassword" placeholder="Confirm Password*" id="cpassword"
                         type="password" class="qa-test-login-password form-control-lg form-control" value=""></div>
                 </div>
-                <div class="mt-3">   <input type="submit" name="btnSigup" class="btn btn-primary btn-lg btn-block " >
+                <div class="mt-3">   <input type="submit" name="btnSigup" value="Create your account" class="btn btn-primary btn-lg btn-block " >
                         
                         </input> </div>
                 <div class="signup-or-container">

@@ -16,7 +16,7 @@
     <div id="login-page" class="view-port">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container ">
-                <a class="navbar-brand mx-auto order-0" href="index.html">
+                <a class="navbar-brand mx-auto order-0" href="index.php">
                     <img src="assets/img/edmodo.png" alt="" class="ed-logo">
                 </a>
             </div>
@@ -27,7 +27,7 @@
                 
             </h3></div>
             
-            <form action="process-sigupstudent.php" method="post">
+            <form action="process-sigup.php" method="post">
             <div class="sso-actions-container">
                 <div class="sso-buttons">
                     <div class="sso-button-group">
@@ -78,7 +78,7 @@
                 <div class="signup-or-container">
                     
 
-                    <input type="submit" name="btnSigup" class="btn btn-primary btn-lg btn-block " >
+                    <input type="submit" name="btnSigup" value="Create your account" class="btn btn-primary btn-lg btn-block " >
                     </input>
 
                     

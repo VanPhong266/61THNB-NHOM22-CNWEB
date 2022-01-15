@@ -15,7 +15,7 @@
     <div id="login-page" class="view-port">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container ">
-                <a class="navbar-brand mx-auto order-0" href="index.html">
+                <a class="navbar-brand mx-auto order-0" href="index.php">
                     <img src="assets/img/edmodo.png" alt="" class="ed-logo">
                 </a>
             </div>
@@ -44,7 +44,7 @@
                                     id="Icon/small/left"
                                     d="M15.207 7.707L10.914 12l4.293 4.293a1 1 0 01-1.414 1.414l-5-5a1 1 0 010-1.414l5-5a1 1 0 011.414 1.414z">
                                 </path>
-                            </svg></span><a href="index.html"><span>Back</span></a></button>
+                            </svg></span><a href="index.php"><span>Back</span></a></button>
                     <h3 class="pt-11"><span>Choose an account</span></h3>
                     <div class="usertypes-options"><button
                             class="big-button-text-image text-left usertype-btn qa-test-usertypePicker-teacherOptionBtn">
@@ -95,7 +95,7 @@
                             </div>
                         </button></div>
                     <p class="which-account-message text-center py-4"><span class="qa-test-signup-learnMoreLink">Not sure which account you need? <a href="https://a.edim.co/images_v2/pdf/Account_Types_on_Edmodo-English.pdf" target="_blank">Learn more</a></span></p>
-                    <p class="body-2-text text-center pt-4"><span class="qa-test-signup-loginLink">Already have an account? <a href="/login">Log in</a></span></p>
+                    <p class="body-2-text text-center pt-4"><span class="qa-test-signup-loginLink">Already have an account? <a href="login.php">Log in</a></span></p>
                 </div>
             </div>
         </div>
