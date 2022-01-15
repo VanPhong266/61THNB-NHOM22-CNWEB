@@ -15,9 +15,8 @@
             <div class="container-fluid">
                 <div class="container">
                     <a class="navbar-brand mx-auto order-0" href="index.php">
-                        <img src="img/edmodo.png" alt="" class="ed-logo">
+                        <img src="/assets/img/edmodo.png" alt=""class="ed-logo">
                     </a>
-                   
                  </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
