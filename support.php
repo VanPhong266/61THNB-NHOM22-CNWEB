@@ -16,7 +16,7 @@
   <header class="header">
     <div class="header-inner clearfix">
       <div class="logo">
-        <a title="Home" href="index.html">
+        <a title="Home" href="index.php">
           <img src="//theme.zdassets.com/theme_assets/225181/51eb67806a4da0dba5cc2516eac9bc2877e68ec6.png" alt="Logo">
         </a>
       </div>
@@ -28,12 +28,12 @@
           <span class="dropdown-menu dropdown-menu-end" role="menu" >
               <div class="mobile-link-container language-link"><a href="/hc/change_language/ar?return_to=%2Fhc%2Far" dir="rtl" rel="nofollow" role="menuitem">
                 العربية
-              </a></div>
-            
+              </a>
+              </div>
               <div class="mobile-link-container language-link"><a href="/hc/change_language/es?return_to=%2Fhc%2Fes" dir="ltr" rel="nofollow" role="menuitem">
                 Español
-              </a></div>
-            
+              </a>
+              </div>
           </span>
         </div>
 

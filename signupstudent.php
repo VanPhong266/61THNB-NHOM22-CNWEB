@@ -16,7 +16,7 @@
     <div id="login-page" class="view-port">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container ">
-                <a class="navbar-brand mx-auto order-0" href="index.html">
+                <a class="navbar-brand mx-auto order-0" href="index.php">
                     <img src="assets/img/edmodo.png" alt="" class="ed-logo">
                 </a>
             </div>
@@ -26,7 +26,7 @@
                 <span>Create your student account</span>
                 <p style="font-size: 15px;">Join a Class with the code given to you by your teacher. After creating your account, you can connect to your parent or guardian.</p>
             </h3>
-            <form action="process-sigupstudent.php" method="post">
+            <form action="process-sigup.php" method="post">
                 <div class="position-relative form-group"><input name="name" id="name" placeholder=" Username"
                         type="text" class="qa-test-login-username form-control-lg form-control" value=""></div>
                 <div class="position-relative form-group"><input name="email" id="email" placeholder="Email (Optional)"
