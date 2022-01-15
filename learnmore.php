@@ -230,252 +230,196 @@
     <div>
         <img src="assets/img/image-font-size-edmo.png" style="width: 1349px;" alt="">
     </div>
-    <div class="hbspt-form " style="margin-top: 100px;" id="hbspt-form-1642064282518-2784834090">
-        <form novalidate="" accept-charset="UTF-8"
-            action="https://forms.hsforms.com/submissions/v3/public/submit/formsnext/multipart/8713338/a2267e96-7e6b-465c-a0f5-03a933033589"
-            enctype="multipart/form-data" id="hsForm_a2267e96-7e6b-465c-a0f5-03a933033589" method="POST"
-            class="hs-form stacked hs-custom-style hs-form-private hsForm_a2267e96-7e6b-465c-a0f5-03a933033589 hs-form-a2267e96-7e6b-465c-a0f5-03a933033589 hs-form-a2267e96-7e6b-465c-a0f5-03a933033589_e1e8a48c-2eb7-477f-865f-47206d24f2b7"
-            data-form-id="a2267e96-7e6b-465c-a0f5-03a933033589" data-portal-id="8713338"
-            target="target_iframe_a2267e96-7e6b-465c-a0f5-03a933033589" data-reactid=".hbspt-forms-0">
-            <fieldset class="form-columns-0" data-reactid=".hbspt-forms-0.1:$0">
-                <div class="hs-richtext hs-main-font-element" data-reactid=".hbspt-forms-0.1:$0.0">
+    <div class="hbspt-form " style="margin-top: 100px;">
+        <form>
+            <fieldset class="form-columns-0" >
+                <div class="hs-richtext hs-main-font-element" >
                     <h1>Stay in Touch!</h1>
                 </div>
             </fieldset>
-            <fieldset class="form-columns-0" data-reactid=".hbspt-forms-0.1:$1">
-                <div class="hs-richtext hs-main-font-element" data-reactid=".hbspt-forms-0.1:$1.0">
+            <fieldset class="form-columns-0" >
+                <div class="hs-richtext hs-main-font-element" >
                     <p style="font-size: 16px;">Sign up to receive the latest Edmodo news and community insights.</p>
                 </div>
             </fieldset>
-            <fieldset class="form-columns-3 row col-md-12" data-reactid=".hbspt-forms-0.1:$2">
-                <div class="hs_firstname hs-firstname hs-fieldtype-text field hs-form-field col-md-4"
-                    data-reactid=".hbspt-forms-0.1:$2.1:$firstname"><label
-                        id="label-firstname-a2267e96-7e6b-465c-a0f5-03a933033589" class=""
-                        placeholder="Enter your First name" for="firstname-a2267e96-7e6b-465c-a0f5-03a933033589"
-                        data-reactid=".hbspt-forms-0.1:$2.1:$firstname.0"><span
-                            data-reactid=".hbspt-forms-0.1:$2.1:$firstname.0.0" style="margin: 5px 0;">First
-                            name</span><span class="hs-form-required"
-                            data-reactid=".hbspt-forms-0.1:$2.1:$firstname.0.1">*</span></label>
-                    <legend class="hs-field-desc" style="display:none;"
-                        data-reactid=".hbspt-forms-0.1:$2.1:$firstname.1"></legend>
-                    <div class="input" data-reactid=".hbspt-forms-0.1:$2.1:$firstname.$firstname"><input
-                            id="firstname-a2267e96-7e6b-465c-a0f5-03a933033589" class="hs-input " type="text"
-                            name="firstname" required="" value="" placeholder="" autocomplete="given-name"
-                            data-reactid=".hbspt-forms-0.1:$2.1:$firstname.$firstname.0" inputmode="text"></div>
-                </div>
-                <div class="hs_lastname hs-lastname hs-fieldtype-text field hs-form-field col-md-4"
-                    data-reactid=".hbspt-forms-0.1:$2.1:$lastname"><label
-                        id="label-lastname-a2267e96-7e6b-465c-a0f5-03a933033589" class=""
-                        placeholder="Enter your Last name" for="lastname-a2267e96-7e6b-465c-a0f5-03a933033589"
-                        data-reactid=".hbspt-forms-0.1:$2.1:$lastname.0"><span
-                            data-reactid=".hbspt-forms-0.1:$2.1:$lastname.0.0" style="margin: 5px 0;">Last
-                            name</span><span class="hs-form-required"
-                            data-reactid=".hbspt-forms-0.1:$2.1:$lastname.0.1">*</span></label>
-                    <legend class="hs-field-desc" style="display:none;"
-                        data-reactid=".hbspt-forms-0.1:$2.1:$lastname.1"></legend>
-                    <div class="input" data-reactid=".hbspt-forms-0.1:$2.1:$lastname.$lastname"><input
-                            id="lastname-a2267e96-7e6b-465c-a0f5-03a933033589" class="hs-input" type="text"
-                            name="lastname" required="" value="" placeholder="" autocomplete="family-name"
-                            data-reactid=".hbspt-forms-0.1:$2.1:$lastname.$lastname.0" inputmode="text"></div>
-                </div>
-                <div class="hs_email hs-email hs-fieldtype-text field hs-form-field col-md-4"
-                    data-reactid=".hbspt-forms-0.1:$2.1:$email"><label
-                        id="label-email-a2267e96-7e6b-465c-a0f5-03a933033589" class="" placeholder="Enter your Email"
-                        for="email-a2267e96-7e6b-465c-a0f5-03a933033589"
-                        data-reactid=".hbspt-forms-0.1:$2.1:$email.0"><span
-                            data-reactid=".hbspt-forms-0.1:$2.1:$email.0.0" style="margin: 5px 0;">Email</span><span
-                            class="hs-form-required" data-reactid=".hbspt-forms-0.1:$2.1:$email.0.1">*</span></label>
-                    <legend class="hs-field-desc" style="display:none;" data-reactid=".hbspt-forms-0.1:$2.1:$email.1">
+            <fieldset class="form-columns-3 row col-md-12" >
+                <div class="hs_firstname hs-firstname hs-fieldtype-text field hs-form-field col-md-4"><label>
+                    <span style="margin: 5px 0;">First
+                            name</span><span class="hs-form-required">*
+                            </span>
+                        </label>
+                    <legend class="hs-field-desc" style="display:none;">
                     </legend>
-                    <div class="input" data-reactid=".hbspt-forms-0.1:$2.1:$email.$email"><input
-                            id="email-a2267e96-7e6b-465c-a0f5-03a933033589" class="hs-input" type="email" name="email"
+                    <div class="input"><input
+                            class="hs-input " type="text"
+                            name="firstname" required="" value="" placeholder="" autocomplete="given-name"
+                            inputmode="text"></div>
+                </div>
+                <div class="hs_lastname hs-lastname hs-fieldtype-text field hs-form-field col-md-4">
+                    <label>
+                        <span
+                            style="margin: 5px 0;">Last
+                            name</span><span class="hs-form-required">*</span></label>
+                    <legend class="hs-field-desc" style="display:none;"></legend>
+                    <div class="input"><input
+                            class="hs-input" type="text"
+                            name="lastname" required="" value="" placeholder="" autocomplete="family-name"
+                            inputmode="text">
+                        </div>
+                </div>
+                <div class="hs_email hs-email hs-fieldtype-text field hs-form-field col-md-4">
+                    <label
+                        placeholder="Enter your Email">
+                        <span
+                            style="margin: 5px 0;">Email</span><span
+                            class="hs-form-required" >*</span></label>
+                    <legend class="hs-field-desc" style="display:none;" >
+                    </legend>
+                    <div class="input" ><input
+                            class="hs-input" type="email" name="email"
                             required="" placeholder="" value="" autocomplete="email"
-                            data-reactid=".hbspt-forms-0.1:$2.1:$email.$email.0" inputmode="email"></div>
+                            inputmode="email"></div>
                 </div>
             </fieldset>
-            <fieldset class="form-columns-3 row col-md-12" data-reactid=".hbspt-forms-0.1:$3">
-                <div class="hs_phone hs-phone hs-fieldtype-text field hs-form-field col-md-4"
-                    data-reactid=".hbspt-forms-0.1:$3.1:$phone"><label
-                        id="label-phone-a2267e96-7e6b-465c-a0f5-03a933033589" class=""
-                        placeholder="Enter your Phone number" for="phone-a2267e96-7e6b-465c-a0f5-03a933033589"
-                        data-reactid=".hbspt-forms-0.1:$3.1:$phone.0"><span
-                            data-reactid=".hbspt-forms-0.1:$3.1:$phone.0.0" style="margin: 5px 0;">Phone
+            <fieldset class="form-columns-3 row col-md-12" ">
+                <div class="hs_phone hs-phone hs-fieldtype-text field hs-form-field col-md-4">
+                    <label
+                        placeholder="Enter your Phone number" ><span
+                           style="margin: 5px 0;">Phone
                             number</span></label>
-                    <legend class="hs-field-desc" style="display:none;" data-reactid=".hbspt-forms-0.1:$3.1:$phone.1">
+                    <legend class="hs-field-desc" style="display:none;">
                     </legend>
-                    <div class="input" data-reactid=".hbspt-forms-0.1:$3.1:$phone.$phone ">
-                        <div class="hs-input hs-fieldtype-intl-phone"
-                            data-reactid=".hbspt-forms-0.1:$3.1:$phone.$phone.0"><select
-                                id="phone_ext-a2267e96-7e6b-465c-a0f5-03a933033589" name="" class="hs-input"
-                                data-reactid=".hbspt-forms-0.1:$3.1:$phone.$phone.0.0">
-                                <option value="VN" data-reactid=".hbspt-forms-0.1:$3.1:$phone.$phone.0.0.$VN"> Vietnam
+                    <div class="input">
+                        <div class="hs-input hs-fieldtype-intl-phone"><select name="" class="hs-input">
+                                <option value="VN" > Vietnam
                                 </option>
-                            </select><input id="phone-a2267e96-7e6b-465c-a0f5-03a933033589" class="hs-input" type="tel"
+                            </select><input  class="hs-input" type="tel"
                                 name="" value="+84 " placeholder="" autocomplete="tel"
-                                data-reactid=".hbspt-forms-0.1:$3.1:$phone.$phone.0.1" inputmode="tel"><input
-                                name="phone" class="hs-input" type="hidden" value=""
-                                data-reactid=".hbspt-forms-0.1:$3.1:$phone.$phone.0.2"></div>
+                                 inputmode="tel"><input
+                                name="phone" class="hs-input" type="hidden" value="">
+                            </div>
                     </div>
                 </div>
-                <div class="hs_jobtitle hs-jobtitle hs-fieldtype-text field hs-form-field col-md-4"
-                    data-reactid=".hbspt-forms-0.1:$3.1:$jobtitle"><label
-                        id="label-jobtitle-a2267e96-7e6b-465c-a0f5-03a933033589" class=""
-                        placeholder="Enter your Job Title" for="jobtitle-a2267e96-7e6b-465c-a0f5-03a933033589"
-                        data-reactid=".hbspt-forms-0.1:$3.1:$jobtitle.0"><span
-                            data-reactid=".hbspt-forms-0.1:$3.1:$jobtitle.0.0" style="margin: 5px 0;">Job
-                            Title</span></label>
-                    <legend class="hs-field-desc" style="display:none;"
-                        data-reactid=".hbspt-forms-0.1:$3.1:$jobtitle.1"></legend>
-                    <div class="input" data-reactid=".hbspt-forms-0.1:$3.1:$jobtitle.$jobtitle"><input
-                            id="jobtitle-a2267e96-7e6b-465c-a0f5-03a933033589" class="hs-input" type="text"
+                <div class="hs_jobtitle hs-jobtitle hs-fieldtype-text field hs-form-field col-md-4"><label
+                        class=""
+                        placeholder="Enter your Job Title" ><span
+                         style="margin: 5px 0;">Job
+                        Title</span></label>
+                    <legend class="hs-field-desc" style="display:none;"></legend>
+                    <div class="input"><input type="text" class="hs-input"
                             name="jobtitle" value="" placeholder="" autocomplete="organization-title"
-                            data-reactid=".hbspt-forms-0.1:$3.1:$jobtitle.$jobtitle.0" inputmode="text"></div>
+                         inputmode="text"></div>
                 </div>
-                <div class="hs_country hs-country hs-fieldtype-select field hs-form-field col-md-4"
-                    data-reactid=".hbspt-forms-0.1:$3.1:$country"><label
-                        id="label-country-a2267e96-7e6b-465c-a0f5-03a933033589" class=""
-                        placeholder="Enter your Country/Region" for="country-a2267e96-7e6b-465c-a0f5-03a933033589"
-                        data-reactid=".hbspt-forms-0.1:$3.1:$country.0"><span
-                            data-reactid=".hbspt-forms-0.1:$3.1:$country.0.0"
+                <div class="hs_country hs-country hs-fieldtype-select field hs-form-field col-md-4"><label
+                        class=""
+                        placeholder="Enter your Country/Region" ><span
                             style="margin: 5px 0;">Country/Region</span></label>
-                    <legend class="hs-field-desc" style="display:none;" data-reactid=".hbspt-forms-0.1:$3.1:$country.1">
+                    <legend class="hs-field-desc" style="display:none;">
                     </legend>
-                    <div class="input" data-reactid=".hbspt-forms-0.1:$3.1:$country.$country ">
-                        <select id="country-a2267e96-7e6b-465c-a0f5-03a933033589" class="hs-input is-placeholder"
-                            name="country" data-reactid=".hbspt-forms-0.1:$3.1:$country.$country.0">
+                    <div class="input" >
+                        <select class="hs-input is-placeholder"
+                            name="country" >
                             <option value="" disabled="" selected=""
-                                data-reactid=".hbspt-forms-0.1:$3.1:$country.$country.0.0" style="margin: 5px 0;">Please
+                                style="margin: 5px 0;">Please
                                 Select</option>
-                            <option value="" data-reactid=".hbspt-forms-0.1:$3.1:$country.$country.0.1:$"></option>
-                            <option value="Vietnam" data-reactid=".hbspt-forms-0.1:$3.1:$country.$country.0.1:$Vietnam">
+                            <option value="Vietnam" >
                                 Vietnam</option>
                         </select>
                     </div>
                 </div>
             </fieldset>
             <fieldset class="form-columns-2 row col-md-12" data-reactid=".hbspt-forms-0.1:$4 ">
-                <div class="hs_institution_name hs-institution_name hs-fieldtype-text field hs-form-field col-md-6"
-                    data-reactid=".hbspt-forms-0.1:$4.1:$institution_name"><label
-                        id="label-institution_name-a2267e96-7e6b-465c-a0f5-03a933033589" class=""
-                        placeholder="Enter your Organization Name"
-                        for="institution_name-a2267e96-7e6b-465c-a0f5-03a933033589"
-                        data-reactid=".hbspt-forms-0.1:$4.1:$institution_name.0"><span
-                            data-reactid=".hbspt-forms-0.1:$4.1:$institution_name.0.0"
+                <div class="hs_institution_name hs-institution_name hs-fieldtype-text field hs-form-field col-md-6"><label
+                       class=""
+                        placeholder="Enter your Organization Name">
+                        <span
                             style="margin: 5px 0;">Organization Name</span></label>
-                    <legend class="hs-field-desc" style="display:none;"
-                        data-reactid=".hbspt-forms-0.1:$4.1:$institution_name.1"></legend>
-                    <div class="input" data-reactid=".hbspt-forms-0.1:$4.1:$institution_name.$institution_name"><input
-                            id="institution_name-a2267e96-7e6b-465c-a0f5-03a933033589" class="hs-input" type="text"
+                    <legend class="hs-field-desc" style="display:none;"></legend>
+                    <div class="input" ><input
+                            class="hs-input" type="text"
                             name="institution_name" value="" placeholder=""
-                            data-reactid=".hbspt-forms-0.1:$4.1:$institution_name.$institution_name.0" inputmode="text">
+                            inputmode="text">
                     </div>
                 </div>
-                <div class="hs_organization_type hs-organization_type hs-fieldtype-select field hs-form-field col-md-6"
-                    data-reactid=".hbspt-forms-0.1:$4.1:$organization_type"><label
-                        id="label-organization_type-a2267e96-7e6b-465c-a0f5-03a933033589" class=""
-                        placeholder="Enter your Organization Type"
-                        for="organization_type-a2267e96-7e6b-465c-a0f5-03a933033589"
-                        data-reactid=".hbspt-forms-0.1:$4.1:$organization_type.0"><span
-                            data-reactid=".hbspt-forms-0.1:$4.1:$organization_type.0.0"
+                <div class="hs_organization_type hs-organization_type hs-fieldtype-select field hs-form-field col-md-6"><label
+                        class=""
+                        placeholder="Enter your Organization Type"><span
                             style="margin: 5px 0;">Organization Type</span></label>
-                    <legend class="hs-field-desc" style="display:none;"
-                        data-reactid=".hbspt-forms-0.1:$4.1:$organization_type.1"></legend>
-                    <div class="input" data-reactid=".hbspt-forms-0.1:$4.1:$organization_type.$organization_type">
-                        <select id="organization_type-a2267e96-7e6b-465c-a0f5-03a933033589"
-                            class="hs-input is-placeholder" name="organization_type"
-                            data-reactid=".hbspt-forms-0.1:$4.1:$organization_type.$organization_type.0">
+                    <legend class="hs-field-desc" style="display:none;"></legend>
+                    <div class="input" >
+                        <select 
+                            class="hs-input is-placeholder" name="organization_type">
                             <option value="" disabled="" selected=""
-                                data-reactid=".hbspt-forms-0.1:$4.1:$organization_type.$organization_type.0.0"
                                 style="margin: 5px 0;">Which
                                 best matches your organization?</option>
                             <option value="K-12 Education"
-                                data-reactid=".hbspt-forms-0.1:$4.1:$organization_type.$organization_type.0.1:$K-12 Education"
                                 style="margin: 5px 0;">
                                 K-12 Education</option>
                             <option value="Corporate Education or Professional Development"
-                                data-reactid=".hbspt-forms-0.1:$4.1:$organization_type.$organization_type.0.1:$Corporate Education or Professional Development"
                                 style="margin: 5px 0;">
                                 Corporate Education or Professional Development</option>
                             <option value="After School or Academic Program"
-                                data-reactid=".hbspt-forms-0.1:$4.1:$organization_type.$organization_type.0.1:$After School or Academic Program"
                                 style="margin: 5px 0;">
                                 After School or Academic Program</option>
                             <option value="Religious Education"
-                                data-reactid=".hbspt-forms-0.1:$4.1:$organization_type.$organization_type.0.1:$Religious Education"
                                 style="margin: 5px 0;">
                                 Religious Education</option>
                             <option value="Adult Education"
-                                data-reactid=".hbspt-forms-0.1:$4.1:$organization_type.$organization_type.0.1:$Adult Education"
                                 style="margin: 5px 0;">
                                 Adult Education</option>
-                            <option value="Higher Education"
-                                data-reactid=".hbspt-forms-0.1:$4.1:$organization_type.$organization_type.0.1:$Higher Education"
+                            <option value="Higher Education"                                
                                 style="margin: 5px 0;">
                                 Higher Education</option>
                             <option value="Other"
-                                data-reactid=".hbspt-forms-0.1:$4.1:$organization_type.$organization_type.0.1:$Other"
                                 style="margin: 5px 0;">
                                 Other</option>
                         </select>
                     </div>
                 </div>
             </fieldset>
-            <fieldset class="form-columns-2 row col-md-12" data-reactid=".hbspt-forms-0.1:$5">
-                <div class="hs_number_of_users hs-number_of_users hs-fieldtype-number field hs-form-field col-md-6"
-                    data-reactid=".hbspt-forms-0.1:$5.1:$number_of_users"><label
-                        id="label-number_of_users-a2267e96-7e6b-465c-a0f5-03a933033589" class=""
-                        placeholder="Enter your Size of Organization"
-                        for="number_of_users-a2267e96-7e6b-465c-a0f5-03a933033589"
-                        data-reactid=".hbspt-forms-0.1:$5.1:$number_of_users.0"><span
-                            data-reactid=".hbspt-forms-0.1:$5.1:$number_of_users.0.0" style="margin: 5px 0;">Size of
+            <fieldset class="form-columns-2 row col-md-12" ">
+                <div class="hs_number_of_users hs-number_of_users hs-fieldtype-number field hs-form-field col-md-6"><label
+                        class=""
+                        placeholder="Enter your Size of Organization"><span
+                            style="margin: 5px 0;">Size of
                             Organization</span></label>
-                    <legend class="hs-field-desc" style="display:none;"
-                        data-reactid=".hbspt-forms-0.1:$5.1:$number_of_users.1"></legend>
-                    <div class="input" data-reactid=".hbspt-forms-0.1:$5.1:$number_of_users.$number_of_users"><input
-                            id="number_of_users-a2267e96-7e6b-465c-a0f5-03a933033589" class="hs-input" type="number"
+                    <legend class="hs-field-desc" style="display:none;"></legend>
+                    <div class="input" ><input
+                           class="hs-input" type="number"
                             name="number_of_users" value="" placeholder="(e.g. 10,000)" step="any"
-                            data-reactid=".hbspt-forms-0.1:$5.1:$number_of_users.$number_of_users.0" inputmode="tel">
+                            inputmode="tel">
                     </div>
                 </div>
-                <div class="hs_website hs-website hs-fieldtype-text field hs-form-field col-md-6"
-                    data-reactid=".hbspt-forms-0.1:$5.1:$website"><label
-                        id="label-website-a2267e96-7e6b-465c-a0f5-03a933033589" class=""
-                        placeholder="Enter your Website URL" for="website-a2267e96-7e6b-465c-a0f5-03a933033589"
-                        data-reactid=".hbspt-forms-0.1:$5.1:$website.0"><span
-                            data-reactid=".hbspt-forms-0.1:$5.1:$website.0.0" style="margin: 5px 0;">Website
+                <div class="hs_website hs-website hs-fieldtype-text field hs-form-field col-md-6">
+                    <label
+                        placeholder="Enter your Website URL" ><span
+                            style="margin: 5px 0;">Website
                             URL</span></label>
-                    <legend class="hs-field-desc" style="display:none;" data-reactid=".hbspt-forms-0.1:$5.1:$website.1">
+                    <legend class="hs-field-desc" style="display:none;">
                     </legend>
-                    <div class="input" data-reactid=".hbspt-forms-0.1:$5.1:$website.$website"><input
-                            id="website-a2267e96-7e6b-465c-a0f5-03a933033589" class="hs-input" type="text"
-                            name="website" value="" placeholder=""
-                            data-reactid=".hbspt-forms-0.1:$5.1:$website.$website.0" inputmode="url"></div>
+                    <div class="input" ><input
+                            class="hs-input" type="text"
+                            name="website" value="" placeholder=""></div>
                 </div>
             </fieldset>
-            <fieldset class="form-columns-1" data-reactid=".hbspt-forms-0.1:$6">
-                <div class="hs_additional_comments hs-additional_comments hs-fieldtype-textarea field hs-form-field"
-                    data-reactid=".hbspt-forms-0.1:$6.1:$additional_comments"><label
-                        id="label-additional_comments-a2267e96-7e6b-465c-a0f5-03a933033589" class=""
-                        placeholder="Enter your Additional Comments"
-                        for="additional_comments-a2267e96-7e6b-465c-a0f5-03a933033589"
-                        data-reactid=".hbspt-forms-0.1:$6.1:$additional_comments.0"><span
-                            data-reactid=".hbspt-forms-0.1:$6.1:$additional_comments.0.0"
+            <fieldset class="form-columns-1">
+                <div class="asman"><label
+                        class=""
+                        placeholder="Enter your Additional Comments"><span
                             style="margin: 5px 0;">Additional
                             Comments</span></label>
-                    <legend class="hs-field-desc" style="display:block;margin: 5px 0;"
-                        data-reactid=".hbspt-forms-0.1:$6.1:$additional_comments.1">Please tell us any additional
+                    <legend class="hs-field-desc" style="display:block;margin: 5px 0;">Please tell us any additional
                         information about your request and/or your organization to help us provide better
                         assistance.&nbsp;</legend>
-                    <div class="input" data-reactid=".hbspt-forms-0.1:$6.1:$additional_comments.$additional_comments">
-                        <textarea id="additional_comments-a2267e96-7e6b-465c-a0f5-03a933033589" class="hs-input"
-                            name="additional_comments" placeholder=""
-                            data-reactid=".hbspt-forms-0.1:$6.1:$additional_comments.$additional_comments.0"></textarea>
+                    <div class="input" >
+                        <textarea  class="hs-input"
+                            name="additional_comments" placeholder=""></textarea>
                     </div>
                 </div>
             </fieldset>
-            <fieldset class="form-columns-1" data-reactid=".hbspt-forms-0.2">
-                <div class="legal-consent-container" data-reactid=".hbspt-forms-0.2.0">
-                    <div class="hs-richtext" data-reactid=".hbspt-forms-0.2.0.0">
+            <fieldset class="form-columns-1" >
+                <div class="legal-consent-container" >
+                    <div class="hs-richtext" >
                         <p style="margin: 5px 0;">Edmodo is committed to protecting and respecting your privacy, and
                             we'll only use your
                             personal information to administer your account and to provide the products and services you
@@ -485,12 +429,9 @@
                             you:</p>
                     </div>
                     <div data-reactid=".hbspt-forms-0.2.0.1:0">
-                        <div class="hs-dependent-field"
-                            data-reactid=".hbspt-forms-0.2.0.1:0.$LEGAL_CONSENT=1subscription_type_11479374">
-                            <div class="hs_LEGAL_CONSENT.subscription_type_11479374 hs-LEGAL_CONSENT.subscription_type_11479374 hs-fieldtype-booleancheckbox field hs-form-field"
-                                data-reactid=".hbspt-forms-0.2.0.1:0.$LEGAL_CONSENT=1subscription_type_11479374.$LEGAL_CONSENT=1subscription_type_11479374">
-                                <legend class="hs-field-desc" style="display:none;"
-                                    data-reactid=".hbspt-forms-0.2.0.1:0.$LEGAL_CONSENT=1subscription_type_11479374.$LEGAL_CONSENT=1subscription_type_11479374.1">
+                        <div class="hs-dependent-field">
+                            <div class="oasu">
+                                <legend class="hs-field-desc" style="display:none;">
                                 </legend>
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"
@@ -502,35 +443,34 @@
                             </div>
                         </div>
                         <legend class="hs-field-desc checkbox-desc" style="display:none;"
-                            data-reactid=".hbspt-forms-0.2.0.1:0.1"></legend>
+                            ></legend>
                     </div>
-                    <div class="hs-richtext" data-reactid=".hbspt-forms-0.2.0.2">
+                    <div class="hs-richtext">
                         <p style="margin: 5px 0;">You can unsubscribe from these communications at any time. For more
                             information on how to
                             unsubscribe, our privacy practices, and how we are committed to protecting and respecting
                             your privacy, please review our Privacy Policy.</p>
                     </div>
-                    <div class="hs-richtext" data-reactid=".hbspt-forms-0.2.0.3">
+                    <div class="hs-richtext" >
                         <p style="margin: 5px 0;">By clicking submit below, you consent to allow Edmodo to store and
                             process the personal
                             information submitted above to provide you the content requested.</p>
                     </div>
                 </div>
             </fieldset>
-            <div class="hs_recaptcha hs-recaptcha field hs-form-field" data-reactid=".hbspt-forms-0.3">
-                <div class="input" data-reactid=".hbspt-forms-0.3.0"><iframe
-                        src="https://js.hsforms.net/forms-next/shell-recaptcha" scrolling="no" height="70" width="270"
+            <div class="hs_recaptcha hs-recaptcha field hs-form-field" >
+                <div class="input" ><iframe
+                        scrolling="no" height="70" width="270"
                         style="border: none; display: block; overflow: hidden; width: 100%;"></iframe></div><input
-                    type="hidden" name="g-recaptcha-response" id="hs-recaptcha-response" value=""
-                    data-reactid=".hbspt-forms-0.3.1">
+                    type="hidden" name="g-recaptcha-response" id="hs-recaptcha-response" value="">
             </div>
-            <div class="hs_submit hs-submit " data-reactid=".hbspt-forms-0.5">
-                <div class="hs-field-desc" style="display:none;" data-reactid=".hbspt-forms-0.5.0"></div>
-                <div class="actions" data-reactid=".hbspt-forms-0.5.1"><input type="submit" value="Submit"
-                        class="hs-button primary large" data-reactid=".hbspt-forms-0.5.1.0"></div>
-            </div><noscript data-reactid=".hbspt-forms-0.6"></noscript><input name="hs_context" type="hidden"
-                data-reactid=".hbspt-forms-0.7"><iframe name="target_iframe_a2267e96-7e6b-465c-a0f5-03a933033589"
-                style="display:none;" data-reactid=".hbspt-forms-0.8"></iframe>
+            <div class="hs_submit hs-submit " >
+                <div class="hs-field-desc" style="display:none;"></div>
+                <div class="actions" ><input type="submit" value="Submit"
+                        class="hs-button primary large"></div>
+            </div><noscript ></noscript><input name="hs_context" type="hidden"
+                ><iframe 
+                style="display:none;" ></iframe>
         </form>
     </div>
     <div class="table-contents mt-5 ">

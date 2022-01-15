@@ -1,0 +1,41 @@
+.navbar-expand-lg{
+  width: 100%;
+  display: block;
+  box-shadow: 0px 1px 0px rgba(143, 143, 143, 0.5);
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  z-index: 7;
+}
+.text-comde{
+    margin-top: 50px;
+}
+.center-s{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+}
+.btn.btn-primary.disabled, .btn.btn-primary:disabled {
+    border: 1px solid #f4f4f7;
+    background: #f4f4f7;
+    color: #abaeba;
+    cursor: default;
+}
+.dropdown-item{
+    padding: 0px;
+}
+.button-2{
+    float:left;
+    margin:0 10px ;
+}
+.Microsoft-1{
+    background-image: url(https://a.edim.co/images_v2/icons/office_appicon.png);
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    color: #7f7f7f;
+    margin: 5px;
+}
+.samm{
+    padding: 10px;
+}
