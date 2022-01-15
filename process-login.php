@@ -5,7 +5,7 @@
     //login.php TRUYỀN DỮ LIỆU SANG: NHẬN DỮ LIỆU TỪ login.php gửi sang
     if(isset($_POST['btnlogin'])){
         $email = $_POST['username'];
-        $pass  = $_POST['password'];
+        $pass  = md5($_POST['password']);
         //Ở đây còn phải kiểm tra người dùng đã nhập chưa
 
         // Bước 01: Kết nối Database Server

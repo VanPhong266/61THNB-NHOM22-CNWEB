@@ -27,7 +27,8 @@
         $error = "Username or Email is existed";
         header("location: add_admin.php?error=$error");
     }else{
-       $sql02 = "INSERT INTO db_admin(tendangnhap, email, matkhau) VALUES ('$user', '$email', '$pass1')";
+        $pass_md5= md5($pass1);
+       $sql02 = "INSERT INTO db_admin(tendangnhap, email, matkhau) VALUES ('$user', '$email', '$pass_md5')";
        $result02 = mysqli_query($conn, $sql02);
 
        if($result02==TRUE){
