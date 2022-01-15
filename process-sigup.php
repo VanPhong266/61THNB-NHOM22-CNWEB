@@ -36,7 +36,7 @@ if(isset($_POST['btnSigup']) && $_POST['email'])
         // chú ý: email_verification_link chính là $token
         $name=$_POST['name'];
         $email=$_POST['email'];
-        $pass= password_hash($_POST['password'], PASSWORD_DEFAULT);
+        $pass= $_POST['password'];
         $sql = "INSERT INTO nguoidung(name, email, email_verification_link ,password) VALUES('$name', '$email', '$token', '$pass')";
 
         mysqli_query($conn, $sql);
