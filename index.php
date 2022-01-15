@@ -25,11 +25,11 @@
                     </a>
                     <ul class="subnav">
                         <li><a href="LearnMore-Teachers.php">Teachers</a></li>
-                        </hr>
+                        <br>
                         <li><a href="LearnMore-Students.php">Students</a></li>
-                        </hr>
+                        <br>
                         <li><a href="LearnMore-Parents.php">Parents</a></li>
-                        </hr>
+                        <br>
                         <li><a href="">Schools, Districts, &amp; Organizations</a></li>
                         </hr>
                         <li><a href="">Distance Learning Toolkit</a></li>
