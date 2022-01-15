@@ -1,3 +1,4 @@
+
 *{
   padding: 0;
   margin: 0;
@@ -20,6 +21,7 @@ html{
   height: 60px;
   background-color: white;
   padding: 0 29px;
+  border-bottom: solid 1px #E3E5E8;
 }
 
 #nav{
@@ -156,3 +158,4 @@ footer h4{
 .dropdown_footer:hover .noidung_dropdown {display: block;}
 
 .noidung_dropdown a:hover {background-color: #ddd; color: black;}
+

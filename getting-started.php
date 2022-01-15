@@ -20,7 +20,7 @@
             
             <nav class="desktop-nav">
                 <div class="logo">
-                    <a title="Home" href="index.html">
+                    <a title="Home" href="index.php">
                         <img src="//theme.zdassets.com/theme_assets/225181/51eb67806a4da0dba5cc2516eac9bc2877e68ec6.png"
                             alt="Logo">
                         
@@ -30,18 +30,18 @@
                 <div class="dropdown ">
                     <button class="nut_dropdown dropdown-toggle">Learn more</button>
                     <div class="noidung_dropdown">
-                        <a href="#">Teachers</a>
-                        <a href="#">Students</a>
-                        <a href="#">Parents</a>
+                        <a href="LearnMore-Teachers.php">Teachers</a>
+                        <a href="LearnMore-Students.php">Students</a>
+                        <a href="LearnMore-Parents.php">Parents</a>
                         <a href="#">Schools, Districts & Organizations</a>
                         <a href="#">Distance Learning Toolkit</a>
                     </div>
                 </div>
                 <li style="list-style-type: none; ">
-                    <a href="" class="bentrong">Blog</a>
+                    <a href="blog.php" class="bentrong">Blog</a>
                 </li>
                 <li style="list-style-type: none;">
-                    <a href="support.html" class="bentrong">support</a>
+                    <a href="support.php" class="bentrong">support</a>
                 </li>
                 <li style="list-style-type: none;">
                     <a href="" class="bentrong">getting Started</a>
@@ -56,10 +56,10 @@
             </nav>
             <nav class="desktop-nav">
                     <li style="list-style-type: none; ">
-                        <a href="" class="bentrong">Login</a>
+                        <a href="login.php" class="bentrong">Login</a>
                     </li>
                     <li style="list-style-type: none; background-color: #FFCA28 !important;">
-                        <a href="support.html" class="bentrong">Sign Up</a>
+                        <a href="signup.php" class="bentrong">Sign Up</a>
                     </li>
             </nav>
 
@@ -104,9 +104,9 @@
                     <p>2. Sign up as a Teacher, Student, or Parent</p>
                     <div class="option">
                         <ul>
-                            <li style="list-style-type: none;"><a href="">Sign up as a teacher</a></li>
-                            <li style="list-style-type: none;"><a href="">Sign up as a student</a></li>
-                            <li style="list-style-type: none;"><a href="">Sign up as a parent </a></li>
+                            <li style="list-style-type: none;"><a href="#">Sign up as a teacher</a></li>
+                            <li style="list-style-type: none;"><a href="#">Sign up as a student</a></li>
+                            <li style="list-style-type: none;"><a href="#">Sign up as a parent </a></li>
                         </ul>
                     </div>
                     <h5 class="canlai">3. Take a look at our
