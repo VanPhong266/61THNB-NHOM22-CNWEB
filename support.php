@@ -28,12 +28,12 @@
           <span class="dropdown-menu dropdown-menu-end" role="menu" >
               <div class="mobile-link-container language-link"><a href="/hc/change_language/ar?return_to=%2Fhc%2Far" dir="rtl" rel="nofollow" role="menuitem">
                 العربية
-              </a></div>
-            
+              </a>
+              </div>
               <div class="mobile-link-container language-link"><a href="/hc/change_language/es?return_to=%2Fhc%2Fes" dir="ltr" rel="nofollow" role="menuitem">
                 Español
-              </a></div>
-            
+              </a>
+              </div>
           </span>
         </div>
 

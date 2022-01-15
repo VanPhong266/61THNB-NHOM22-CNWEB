@@ -44,7 +44,7 @@
                                     id="Icon/small/left"
                                     d="M15.207 7.707L10.914 12l4.293 4.293a1 1 0 01-1.414 1.414l-5-5a1 1 0 010-1.414l5-5a1 1 0 011.414 1.414z">
                                 </path>
-                            </svg></span><a href="index.php"><span>Back</span></a></button>
+                            </svg></span><a style="text-decoration: none;" href="index.php"><span>Back</span></a></button>
                     <h3 class="pt-11"><span>Choose an account</span></h3>
                     <div class="usertypes-options"><button
                             class="big-button-text-image text-left usertype-btn qa-test-usertypePicker-teacherOptionBtn">
@@ -57,7 +57,7 @@
                                         </path>
                                     </svg></div>
                                 <div class="desc-col col-15">
-                                    <div class="button-title"><a href="signupteacher.php">Teacher Account</a></div>
+                                    <div class="button-title"><a style="text-decoration: none; " href="signupteacher.php">Teacher Account</a></div>
                                     <div class="button-description"><span>For teachers, co-teachers, admins, coaches,
                                             club advisors, instructional tech</span></div>
                                 </div>
@@ -73,7 +73,7 @@
                                         </path>
                                     </svg></div>
                                 <div class="desc-col col-15">
-                                    <div class="button-title"><a href="signupstudent.php">Student Account</a></div>
+                                    <div class="button-title"><a style="text-decoration: none; " href="signupstudent.php">Student Account</a></div>
                                     <div class="button-description"><span>For students, class participants, club
                                             members, etc</span></div>
                                 </div>
@@ -89,7 +89,7 @@
                                         </path>
                                     </svg></div>
                                 <div class="desc-col col-15">
-                                    <div class="button-title"><a href="signupparrent.php">Parent Account</a></div>
+                                    <div class="button-title"><a style="text-decoration: none; " href="signupparrent.php">Parent Account</a></div>
                                     <div class="button-description"><span>For parents or guardians</span></div>
                                 </div>
                             </div>
