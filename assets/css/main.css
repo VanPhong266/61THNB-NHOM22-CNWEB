@@ -20,6 +20,7 @@ html{
   height: 60px;
   background-color: white;
   padding: 0 29px;
+  border-bottom: solid 1px #E3E5E8;
 }
 
 #nav{
