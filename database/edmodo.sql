@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
+<<<<<<< Updated upstream
 -- Thời gian đã tạo: Th1 15, 2022 lúc 02:57 PM
+=======
+-- Thời gian đã tạo: Th1 15, 2022 lúc 12:27 PM
+>>>>>>> Stashed changes
 -- Phiên bản máy phục vụ: 10.4.21-MariaDB
 -- Phiên bản PHP: 8.0.12
 
@@ -143,6 +147,7 @@ CREATE TABLE `images` (
   `time` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
+<<<<<<< Updated upstream
 --
 -- Đang đổ dữ liệu cho bảng `images`
 --
@@ -154,6 +159,8 @@ INSERT INTO `images` (`id`, `content`, `image`, `time`) VALUES
 (4, '', 'bài tập lớn HQTCSDL2.png', '2022-01-15 19:43:40'),
 (5, '', 'Untitled.png', '2022-01-15 20:09:26');
 
+=======
+>>>>>>> Stashed changes
 -- --------------------------------------------------------
 
 --
@@ -266,7 +273,11 @@ ALTER TABLE `nguoidung`
 -- AUTO_INCREMENT cho bảng `images`
 --
 ALTER TABLE `images`
+<<<<<<< Updated upstream
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+=======
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+>>>>>>> Stashed changes
 
 --
 -- AUTO_INCREMENT cho bảng `nguoidung`

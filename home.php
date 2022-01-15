@@ -24,15 +24,23 @@
                     <li class="nav-item">
                         <a class="nav-link active" style="margin-left:10px;" aria-current="page" href="home.php">Home</a>
                     </li>
+                    
                 </ul>
                 <form class="d-flex">
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="search" aria-label="search" aria-describedby="basic-addon1">
                         <span class="input-group-text" id="basic-addon1">
+<<<<<<< Updated upstream
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
                                 </path>
                             </svg>
+=======
+                            <button style="border:0px;"><svg xmlns="" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z">
+                                    </path>
+                                </svg></button>
+>>>>>>> Stashed changes
                         </span>
                     </div>
                     <div class="btn-group">
@@ -159,22 +167,38 @@
                     </div>
                     <div class="col-md-6">
                         <div class="commit-text mt-5">
+<<<<<<< Updated upstream
                             <form action="process-add.php" method="post" enctype="multipart/form-data">
                                 <div class="textcomit" style=" border-radius: 5px;
                                     padding: 20px; background-color: rgb(240, 240, 240);">
                                     <input type="text" name="content" style="height: 66px;" class="form-control" placeholder="Type your note here..." aria-label="search" aria-describedby="basic-addon1">
                                     <input type="text" style="margin-top: 15px;" class="form-control" placeholder="select a group..." aria-label="search" aria-describedby="basic-addon1">
+=======
+                            <form action="process-add.php" method="POST" enctype="multipart/form-data">
+                                <div class="textcomit" style=" border-radius: 5px;
+                            padding: 20px; background-color: rgb(240, 240, 240);">
+                                    <input type="text" name="content" style="height: 66px;" class="form-control" placeholder="Type your note here..." aria-label="" aria-describedby="basic-addon1">
+                                    <input type="text" style="margin-top: 15px;" class="form-control" placeholder="select a group..." aria-label="" aria-describedby="basic-addon1">
+>>>>>>> Stashed changes
                                     <div class="icon-img" style="padding: 1rem ;color: rgb(124, 124, 124);">
                                         <div class="text-cancel">
                                             <div class="cancel">
                                                 <span style="display: inline-block; ">
+<<<<<<< Updated upstream
                                                     <input name="image" type="file">
                                                     <i class="bi bi-image-fill" ></i>
+=======
+                                                    <input type="file" name="image">
+>>>>>>> Stashed changes
                                                 </span>
                                                 <div class=" center-s" style="float: right;">
                                                     <button data-action="postbox-reset" class="btn btn-link"><span>Cancel</span></button>
                                                     <span class="action"><span>or</span></span>
+<<<<<<< Updated upstream
                                                     <button type="submit" data-action="postbox-submit" name="post" role="button" class="post-btn qa-test-post-btn btn btn-primary">Post</button>
+=======
+                                                    <button type="submit" name="Post" data-action="postbox-submit" role="button" class="post-btn qa-test-post-btn btn btn-primary ">Post</button>
+>>>>>>> Stashed changes
                                                 </div>
                                             </div>
                                         </div>
@@ -239,6 +263,10 @@
             </div>
         </main>
     </div>
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 

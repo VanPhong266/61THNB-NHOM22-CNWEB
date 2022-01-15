@@ -59,12 +59,12 @@
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="nav-item">
                                     <div class="login">
-                                        <a class="nav-link active" aria-current="page" href="login.html">Log In</a>
+                                        <a class="nav-link active" aria-current="page" href="login.php">Log In</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
                                     <div class="signup">
-                                        <a class="nav-link active" aria-current="page" href="#"
+                                        <a class="nav-link active" aria-current="page" href="signup.php"
                                             style="background-color: #FFCA28;color: #1B1E83;">Sign
                                             Up</a>
                                     </div>
