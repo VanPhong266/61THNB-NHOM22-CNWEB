@@ -8,6 +8,17 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
+    <header>
+    <div id="login-page" class="view-port">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container ">
+                <a class="navbar-brand mx-auto order-0" href="index.php">
+                    <img src="assets/img/edmodo.png" alt="" class="ed-logo">
+                </a>
+            </div>
+        </nav>
+    </div>
+    </header>
         <?php
         if($_GET['key'] && $_GET['token'])
         {
@@ -36,15 +47,16 @@
                 $msg = "Danger! Your something goes to wrong.";
             }
         ?>
-        <div class="container mt-3">
+        <div class=" mt-3">
         <div class="card">
-        <div class="card-header text-center">
-        User Account Activation by Email Verification using PHP
+        <div class=" text-center">
+            <h3>Active edmodo account</h3>
         </div>
-        <div class="card-body">
+        <div class="card-body text-center">
         <p><?php echo $msg; ?></p>
-</div>
-</div>
-</div>
+            <a style="text-decoration: none;" href="login.php">Click here to sign in</a>
+        </div>
+        </div>
+        </div>
 </body>
 </html>

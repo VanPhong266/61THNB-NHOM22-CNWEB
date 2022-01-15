@@ -1,3 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<header>
+    <div id="login-page" class="view-port">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container ">
+                <a class="navbar-brand mx-auto order-0" href="index.php">
+                    <img src="assets/img/edmodo.png" alt="" class="ed-logo">
+                </a>
+            </div>
+        </nav>
+    </div>
+    </header>
 <?php
 if(isset($_POST['btnSigup']) && $_POST['email'])
 {
@@ -29,6 +50,7 @@ if(isset($_POST['btnSigup']) && $_POST['email'])
             echo "Vui lòng kiểm tra Hộp thư để kích hoạt tài khoản";
         }
         else{
+        
             echo "Xin lỗi bạn. Email chưa được gửi đi. Bạn vui lòng kiểm tra lại thông tin đăng ký tài khoản";
         }
         
@@ -39,3 +61,6 @@ if(isset($_POST['btnSigup']) && $_POST['email'])
     }
 }
 ?>
+
+</body>
+</html>
