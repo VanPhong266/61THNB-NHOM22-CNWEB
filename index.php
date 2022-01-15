@@ -25,13 +25,13 @@
                     </a>
                     <ul class="subnav">
                         <li><a href="LearnMore-Teachers.php">Teachers</a></li>
-                        <br>
+                        </br>
                         <li><a href="LearnMore-Students.php">Students</a></li>
-                        <br>
+                        </br>
                         <li><a href="LearnMore-Parents.php">Parents</a></li>
-                        <br>
-                        <li><a href="">Schools, Districts, &amp; Organizations</a></li>
-                        </hr>
+                        </br>
+                        <li><a href="Learnmore-School.php">Schools, Districts, &amp; Organizations</a></li>
+                        </br>
                         <li><a href="">Distance Learning Toolkit</a></li>
                     </ul>
                 </li>
@@ -70,7 +70,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-1"> <button style="margin-top: 10px;background-color: #1a237e;border-color: #1a237e;" class="btn btn-primary" name="button" value="OK" type="button" onclick="hello()">Learn more</button>
+                            <div class="col-md-1"><button href="Learnmore-School.php" style="margin-top: 10px;background-color: #1a237e;border-color: #1a237e;" class="btn btn-primary" name="button" value="OK" type="button" onclick="hello()">Learn more</button>
                             </div>
                         </div>
                     </div>
@@ -80,26 +80,27 @@
 
         <div style="margin-left: 88px; margin-right: 88px;" id="content">
             <div class="main_about row">
-                <div style="text-align: center;" class="col-md-6">
-                    <h4>Learn Better Together</h4>
-                    <p>Manage your classroom. Engage your students.</p>
-                    <p>Safe. Simple. Free.</p>
-                </div>
                 <div class="col-md-6">
                     <img src="assets/img/1.webp" alt="" class="img-fluid rounded">
                 </div>
-                <div class="sign-up-section-button"><a href="signup.php"><button class="sign-up-section-button userpicker qa-test-top-userpicker-sign-up-button"><span>Sign
-                                up for a
-                                free account</span></button></a>
+                <div style="margin-top: 100px; margin-bottom: 100px;" class="col-md-6">
+                    <h1>Learn Better Together</h1>
+                    <p>Manage your classroom. Engage your students.</p>
+                    <p>Safe. Simple. Free.</p>
+                    <button style="background-color: #ffc107; text-decoration:none;"><span href="signup.php">Sign
+                            up for a
+                            free account</span></button>
                 </div>
             </div>
             <hr>
             <div class="main_about row">
-                <div style="text-align: center;" class="col-md-6">
-                    <h4>Tools that teachers need</h4>
-                    <p class="my_intro">Send messages, share class materials, and make learning accessible anywhere.
+                <div style="margin-top: 100px; margin-bottom: 100px;" class="col-md-6">
+                    <span>FOR EDUCATORS</span>
+                    <h1>Tools that teachers need</h1>
+                    <p>Send messages, share class materials, and make learning accessible anywhere.
                         Save
                         yourself time by bringing all your classroom tools together.</p>
+                    <a style="color: #fd7e14;" href="LearnMore-Teachers.php">Show me how</a>
                 </div>
                 <div class="col-md-6">
                     <img src="assets/img/2.webp" alt="" class="img-fluid rounded">
@@ -110,26 +111,31 @@
                 <div class="col-md-6">
                     <img src="assets/img/3.webp" alt="" class="img-fluid rounded">
                 </div>
-                <div style="text-align: center;" class="col-md-6">
-                    <h4>A platform students love</h4>
-                    <p class="my_intro">Raise your confidence, find your voice, and experience what it means to be a
+                <div style="margin-top: 100px; margin-bottom: 100px;" class="col-md-6">
+                    <span>FOR STUDENTS</span>
+                    <h1>A platform students love</h1>
+                    <p>Raise your confidence, find your voice, and experience what it means to be a
                         digital
-                        citizen. Empower your learning and become part of a vibrant classroom community.</p>
+                        citizen.
+                    </p>
+                    <p>Empower your learning and become part of a vibrant classroom community.</p>
+                    <a style="color: #fd7e14;" href="LearnMore-Students.php">Learn more</a>
                 </div>
             </div>
             <hr>
-            <div style="text-align: center;" class="main_about row">
-                <div class="col-md-6">
-                    <h4>Updates that parents want</h4>
-                    <p class="my_intro">Get class updates, stay in sync with teachers, and support learning at home. See
+            <div class="main_about row">
+                <div style="margin-top: 100px; margin-bottom: 100px;" class="col-md-6">
+                    <span>FOR FAMILIES</span>
+                    <h1>Updates that parents want</h1>
+                    <p>Get class updates, stay in sync with teachers, and support learning at home. See
                         classroom activity and grades at a glance to help students stay on track.</p>
+                    <a style="color: #fd7e14;" href="LearnMore-Parents.php">Tell me more</a>
                 </div>
                 <div class="col-md-6">
                     <img src="assets/img/4.webp" alt="" class="img-fluid rounded">
                 </div>
             </div>
         </div>
-
 
         <hr>
         <div id="footer">
@@ -154,9 +160,6 @@
                             <div style="clear:both;"></div>
                         </section>
                         <div class="dropdown_footer">
-                        <span class="material-icons-outlined">
-public
-</span>
                             <button class="nut_dropdown"><a href="#" class="js-wpml-ls-item-toggle wpml-ls-item-toggle"><img class="wpml-ls-flag" src="https://9kyhf3crb4ah2d0m726aoc6x-wpengine.netdna-ssl.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="en" title="English"><span class="wpml-ls-native"> English</span></a></button>
                             <span class="material-icons">
                                 arrow_drop_down
@@ -212,3 +215,4 @@ public
 </body>
 
 </html>
+

@@ -1,4 +1,3 @@
-
 *{
   padding: 0;
   margin: 0;
@@ -21,7 +20,7 @@ html{
   height: 60px;
   background-color: white;
   padding: 0 29px;
-  border-bottom: solid 1px #E3E5E8;
+  border-bottom: solid 1px #e3e5e8;
 }
 
 #nav{
@@ -53,7 +52,6 @@ html{
   display: block;
 }
 
-
 #nav > li:hover > a,
 #nav .subnav li:hover a{
   color: #5C6178;
@@ -69,7 +67,7 @@ html{
   position: absolute;
   background-color: #ccc;
   box-shadow: 0 0 5px black;
-  padding-left: 16px;
+
   
 }
 
@@ -108,11 +106,8 @@ html{
 #content{
   background-color: #ffffff;
   margin-top: 70px;
-
+  
 }
-
-
-
 
 footer{
   color: #777777;
@@ -158,4 +153,5 @@ footer h4{
 .dropdown_footer:hover .noidung_dropdown {display: block;}
 
 .noidung_dropdown a:hover {background-color: #ddd; color: black;}
+
 
