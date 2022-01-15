@@ -74,8 +74,7 @@
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                           <li><a class="dropdown-item samm" href="#">
                             <i class="bi bi-person-fill"style="color: rgb(117, 117, 117);"></i> Profile
-                          </a></li>
-                          
+                          </a></li>          
                           <hr class="dropdown-divider">
                           <li><a class="dropdown-item samm" href="#">
                             <i class="bi bi-star-fill"style="color: rgb(117, 117, 117);" ></i>What's New</a></li>
