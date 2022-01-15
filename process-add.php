@@ -1,6 +1,6 @@
 <?php
 //b1 Import đoạn cấu hình bước 1
-require 'process-add.php';
+require 'db.php';
 $statusMsg = '';//tạo 1 biến để lưu lại trạng thái upload nhằm mục tiêu phản hồi lại cho người dùng
 //những động tác về thiết lập cho việc chuẩn bị upload
 $targetDir = "image/";//thư mục chỉ định nằm trong cùng project để lưu trữ tập tin tải lên
@@ -10,7 +10,7 @@ $targetFilePath = $targetDir . $fileName;//Đây là tên đầy đủ+đường
 //nó là giá trị cần truyền vào hàm movie_uploaded_file
 
 $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);//bắt định dạng tệp tin
-
+$content=$_POST['content'];
 //b2 kiểmtra xem người dùng đã nhấn submit chưa và file đã được chọn chưa
 if(isset($_POST["post"]) && !empty($_FILES["image"]["name"])){
 
@@ -24,8 +24,9 @@ if(isset($_POST["post"]) && !empty($_FILES["image"]["name"])){
         if(move_uploaded_file($_FILES["image"]["tmp_name"], $targetFilePath)){//lấy từ nơi tạm vào nơi chính
             // lưu đường dẫn vào CSDL
             //$insert = $db->query("INSERT into images (file_name, uploaded_on) VALUES ('".$fileName."', NOW())");
-            $sql="INSERT into images (content,image,time ) VALUES ('".$content."';'".$fileName."', NOW())";
-            $insert=mysqli_query($db,$sql);
+            $sql="INSERT into images (content,image,time ) VALUES ('".$content."','".$fileName."', NOW())";
+            echo $sql;
+            $insert=mysqli_query($conn,$sql);
            if($insert){//kiểm tra việc query thành công
                 $statusMsg = "The file ".$fileName. " has been uploaded successfully.";
                 //header("location:show.php");
