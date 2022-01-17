@@ -16,7 +16,7 @@
     <div id="main">
         <div id="header">
             <ul id="nav">
-                <img style="margin-right: 18px;" src="assets/img/edmodo.png" alt="" class="img-fluid">
+                <a href="index.php"><img style="margin-right: 18px;" src="assets/img/edmodo.png" alt="" class="img-fluid"></a>
                 <li>
                     <a href="#">Learn more
                         <span class="material-icons">
@@ -39,7 +39,7 @@
                 <li><a href="support.php">Support</a></li>
                 <li><a href="getting-started.php">Getting Started</a></li>
                 <li>
-                    <a class="nav-link active btn" aria-current="page" href="#" style="background-color: rgb(8, 8, 94); color: rgb(247, 247, 247)">
+                    <a class="nav-link active btn" aria-current="page" href="Learnmore-School.php" style="background-color: rgb(8, 8, 94); color: rgb(247, 247, 247)">
                         Schools & Districts</a>
                 </li>
                 <div id="login-signup">

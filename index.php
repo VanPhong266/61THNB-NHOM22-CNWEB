@@ -62,7 +62,7 @@
                                         <h4>Check out Edmodo's learning solutions!
                                         </h4>
                                     </div>
-                                    <div class="main-text">
+                                    <div style="max-width: 666px;" class="main-text">
                                         <span>As a response to emerging educational needs, we are continually evolving
                                             to
                                             meet the needs of educators and learners around the world.
