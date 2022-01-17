@@ -35,9 +35,9 @@
                                         Learn more
                                     </a>
                                     <ul class="dropdown-menu" aria-current="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Teachers</a></li>
-                                        <li><a class="dropdown-item" href="#">Students</a></li>
-                                        <li><a class="dropdown-item" href="#">Parents</a></li>
+                                        <li><a class="dropdown-item" href="LearnMore-Teachers.php">Teachers</a></li>
+                                        <li><a class="dropdown-item" href="LearnMore-Students.php">Students</a></li>
+                                        <li><a class="dropdown-item" href="LearnMore-Parents.php">Parents</a></li>
                                         <li>
                                             <a class="dropdown-item" href="Learnmore-School.php">Schools, Districts & Organizations</a>
                                         </li>

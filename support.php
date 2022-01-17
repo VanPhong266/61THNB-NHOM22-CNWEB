@@ -197,7 +197,7 @@
       <span>Edmodo &copy;2020</span>
       <a href='#'>About</a>
       <a href='#'>Careers</a>
-      <a href='#'>Blog</a>
+      <a href='blog.php'>Blog</a>
       <a href='#'>Newsroom</a>
       <a href='#'>Terms of Service</a>
     </nav>

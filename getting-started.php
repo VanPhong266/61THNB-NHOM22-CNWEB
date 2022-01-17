@@ -33,7 +33,7 @@
                         <a href="LearnMore-Teachers.php">Teachers</a>
                         <a href="LearnMore-Students.php">Students</a>
                         <a href="LearnMore-Parents.php">Parents</a>
-                        <a href="#">Schools, Districts & Organizations</a>
+                        <a href="Learnmore-School.php">Schools, Districts & Organizations</a>
                         <a href="#">Distance Learning Toolkit</a>
                     </div>
                 </div>
@@ -41,15 +41,15 @@
                     <a href="blog.php" class="bentrong">Blog</a>
                 </li>
                 <li style="list-style-type: none;">
-                    <a href="support.php" class="bentrong">support</a>
+                    <a href="support.php" class="bentrong">Support</a>
                 </li>
                 <li style="list-style-type: none;">
-                    <a href="" class="bentrong">getting Started</a>
+                    <a href="getting-started.php" class="bentrong">Getting Started</a>
                 </li>
                 <li style=" list-style-type: none; padding-left: 15px; padding-right: 15px; "
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2555 " data-item-id="2555">
                     <a style="text-decoration: none;"
-                        href="https://go.edmodo.com/schools/?utm_campaign=2020-cares-act&amp;utm_medium=visitor-site&amp;utm_source=marketing&amp;utm_content=nav-bar&amp;utm_term=nav-bar"
+                        href="Learnmore-School.php"
                         class="fusion-background-highlight"><span class="menu-text">Schools &amp; Districts</span></a>
                 </li>
                
@@ -295,13 +295,13 @@
                                 Take the free, self-paced course on Teachable and learn how to create and engage
                                 students in flexible, digital learning spaces on Edmodo. Additional courses also
                                 available <a style="text-decoration: none; color: #ff6f00;"
-                                    href="https://edmodotraining.teachable.com/" target="_blank"
+                                    href="#" target="_blank"
                                     rel="noopener noreferrer">here</a>.</div>
                         </div>
                         <div class="cta"
                             style="margin-right: 0; margin-left: auto; display: inline-block; font-size: 18px; font-family: 'Disclaimer Regular', Helvetica Neue;">
                             <a style="text-decoration: none; color: #ffffff; background-color: #1a237e; padding: 10px 16px; border-radius: 7px;"
-                                href="https://edmodotraining.teachable.com/p/edmodo-basics" target="_blank"
+                                href="#" target="_blank"
                                 rel="noopener">Enroll</a>
                         </div>
                     </div>
@@ -408,27 +408,27 @@
                     <ul id="menu-footer-nav" class="menu">
                         <li id="menu-item-8917"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8917"><a
-                                href="https://info.edmodo.com/about"><span class="link-text"> About</span><span
+                                href="#"><span class="link-text"> About</span><span
                                     class="arrow"></span></a></li>
                         <li id="menu-item-3618"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3618"><a
-                                href="https://go.edmodo.com/newsroom/"><span class="link-text"> News</span><span
+                                href="#"><span class="link-text"> News</span><span
                                     class="arrow"></span></a></li>
                         <li id="menu-item-365"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365"><a
-                                href="https://go.edmodo.com/careers/"><span class="link-text"> Careers</span><span
+                                href="#"><span class="link-text"> Careers</span><span
                                     class="arrow"></span></a></li>
                         <li id="menu-item-1512"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1512"><a
-                                href="https://go.edmodo.com/privacy-policy/"><span class="link-text">
+                                href="#"><span class="link-text">
                                     Privacy</span><span class="arrow"></span></a></li>
                         <li id="menu-item-1513"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1513"><a
-                                href="https://go.edmodo.com/terms-of-service/"><span class="link-text"> Terms of
+                                href="#"><span class="link-text"> Terms of
                                     Service</span><span class="arrow"></span></a></li>
                         <li id="menu-item-366"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366"><a
-                                href="https://go.edmodo.com/contact/"><span class="link-text"> Contact Us</span><span
+                                href="#"><span class="link-text"> Contact Us</span><span
                                     class="arrow"></span></a></li>
                     </ul>
                 </div>
@@ -437,23 +437,23 @@
                     <ul id="menu-footer-nav" class="menu">
                         <li id="menu-item-1519"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1519"><a
-                                href="https://go.edmodo.com/teachers/"><span class="link-text"> Teachers</span><span
+                                href="LearnMore-Teachers.php"><span class="link-text"> Teachers</span><span
                                     class="arrow"></span></a></li>
                         <li id="menu-item-1518"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1518"><a
-                                href="https://go.edmodo.com/students/"><span class="link-text"> Students</span><span
+                                href="LearnMore-Students.php"><span class="link-text"> Students</span><span
                                     class="arrow"></span></a></li>
                         <li id="menu-item-1517"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1517"><a
-                                href="https://go.edmodo.com/parents/"><span class="link-text"> Parents</span><span
+                                href="LearnMore-Parents.php"><span class="link-text"> Parents</span><span
                                     class="arrow"></span></a></li>
                         <li id="menu-item-1520"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a
-                                href="https://go.edmodo.com/schools/"><span class="link-text"> Schools, Districts, &amp;
+                                href="Learnmore-School.php"><span class="link-text"> Schools, Districts, &amp;
                                     Organizations</span><span class="arrow"></span></a></li>
                         <li id="menu-item-6676"
                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6676"><a
-                                href="https://go.edmodo.com/distancelearning/"><span class="link-text"> Distance
+                                href="#"><span class="link-text"> Distance
                                     Learning Toolkit</span><span class="arrow"></span></a></li>
                     </ul>
                 </div>
@@ -462,19 +462,19 @@
                     <ul id="menu-footer-nav" class="menu">
                         <li id="menu-item-4051"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4051"><a
-                                href="https://labs.edmodo.com/"><span class="link-text"> Edmodo Labs</span><span
+                                href="#"><span class="link-text"> Edmodo Labs</span><span
                                     class="arrow"></span></a></li>
                         <li id="menu-item-1514"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1514"><a
-                                href="https://blog.edmodo.com"><span class="link-text"> Blog</span><span
+                                href="blog.php"><span class="link-text"> Blog</span><span
                                     class="arrow"></span></a></li>
                         <li id="menu-item-1516"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1516"><a
-                                target="_blank" rel="noopener" href="http://support.edmodo.com"><span class="link-text">
+                                target="_blank" rel="noopener" href="support.php"><span class="link-text">
                                     Support</span><span class="arrow"></span></a></li>
                         <li id="menu-item-4052"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4052"><a
-                                href="https://go.edmodo.com/getting-started/?utm_source=main&amp;utm_medium=visitor-site&amp;utm_content=footer"><span
+                                href="getting-started.php"><span
                                     class="link-text"> Getting Started</span><span class="arrow"></span></a></li>
                     </ul>
                 </div>
@@ -483,11 +483,11 @@
                     <ul id="menu-footer-nav" class="menu">
                         <li id="menu-item-1521"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1521"><a
-                                href="http://twitter.com/edmodo"><span class="link-text"> Twitter</span><span
+                                href="http://twitter.com/"><span class="link-text"> Twitter</span><span
                                     class="arrow"></span></a></li>
                         <li id="menu-item-1522"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1522"><a
-                                href="http://www.facebook.com/edmodo/"><span class="link-text"> Facebook</span><span
+                                href="http://www.facebook.com/ncbgttt"><span class="link-text"> Facebook</span><span
                                     class="arrow"></span></a></li>
                     </ul>
                 </div>
