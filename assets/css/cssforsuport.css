@@ -110,6 +110,16 @@ main {
     margin-bottom: 35px;
     padding: 35px 0;
 }
+.search-box .search-btn {  
+    position: absolute;  
+    right: 2px;  
+    top: 2px;  
+    color: #aaa;  
+    border-radius: 3px;  
+    font-size: 21px;  
+    padding: 36px 1px;  
+    
+    }
 
 .search-container {
     width: 66%;

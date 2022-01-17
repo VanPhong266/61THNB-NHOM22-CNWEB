@@ -51,14 +51,12 @@
           <h1 class="help-center-name homepage">Edmodo 
             <br>
             Help Center</h1>
-          <div class="input-group">
-            <div class="form-outline">
-              <input type="search" id="form1" class="form-control" />
-              <label class="form-label" for="form1"
-                placeholder="Search keywords: joining groups, signing up..."></label>
-            </div>
-            <a href=""><i class="bi bi-search"></i></a>
-          </div>
+            <div class="search-box"> 
+                <form class="search-form" action=""> <input class="form-control" placeholder="Search keywords: joining groups, singing up..." type="text"> 
+                <button class="btn btn-link search-btn"> <i class="bi bi-search"></i> 
+                </button> 
+                </form> 
+            </div> 
         </div>
       </div>
       <div class="search-image">
