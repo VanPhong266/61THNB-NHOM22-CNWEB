@@ -64,8 +64,8 @@
                     </div>
 
             <!-- phần đăng nhập mới -->
-            <div role="group" class="btn-group mt-3 ">
-                <button type="button" class="qa-test-recovery-username-btn btn btn-secondary">
+            <div role="group" class="btn-group mt-3  ">
+                <button type="button" class="qa-test-recovery-username-btn btn btn-secondary " style="margin-left:150px ;">
                     <span>Username or Email</span>
                 </button>
             </div>
@@ -78,7 +78,7 @@
                 <div class="forgot-password-container text-center"><button type="button"
                         class="qa-test-forgot-password-btn btn btn-link"><span>Forgot password?</span></button></div>
                 <button type="submit" name="btnlogin" id="qa-test-lightbox-login"
-                    class="btn btn-primary btn-lg"><span>
+                    class="btn btn-primary btn-lg" style="margin-left:190px ;"><span >
                         Log In</span>
                     </button>
             </form>

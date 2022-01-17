@@ -18,7 +18,7 @@
             <div class="col-md-12  nna">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="index.php">
                             <img src="assets/img/edmodo.png" alt="" class="ed-logo" />
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
