@@ -39,7 +39,7 @@
                                         <li><a class="dropdown-item" href="#">Students</a></li>
                                         <li><a class="dropdown-item" href="#">Parents</a></li>
                                         <li>
-                                            <a class="dropdown-item" href="#">Schools, Districts & Organizations</a>
+                                            <a class="dropdown-item" href="Learnmore-School.php">Schools, Districts & Organizations</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="#">Distance Learning Toolkit</a>
@@ -47,13 +47,13 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active " style="margin: 0 10px;" aria-current="page" href="#">Blog</a>
+                                    <a class="nav-link active " style="margin: 0 10px;" aria-current="page" href="blog.php">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active " style="margin: 0 10px;" aria-current="page" href="#">Support</a>
+                                    <a class="nav-link active " style="margin: 0 10px;" aria-current="page" href="support.php">Support</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active " style="margin: 0 10px;" aria-current="page" href="#">Getting Started</a>
+                                    <a class="nav-link active " style="margin: 0 10px;" aria-current="page" href="getting-started.php">Getting Started</a>
                                 </li>
                             </ul>
                             <ul class="nav navbar-nav navbar-right">

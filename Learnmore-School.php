@@ -34,11 +34,11 @@
                                         Learn more
                                     </a>
                                     <ul class="dropdown-menu" aria-current="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Teachers</a></li>
-                                        <li><a class="dropdown-item" href="#">Students</a></li>
-                                        <li><a class="dropdown-item" href="#">Parents</a></li>
+                                        <li><a class="dropdown-item" href="Learnmore-School.php">Teachers</a></li>
+                                        <li><a class="dropdown-item" href="Learnmore-Students.php">Students</a></li>
+                                        <li><a class="dropdown-item" href="LearnMore-Parents.php">Parents</a></li>
                                         <li>
-                                            <a class="dropdown-item" href="#">Schools, Districts & Organizations</a>
+                                            <a class="dropdown-item" href="Learnmore-School.php">Schools, Districts & Organizations</a>
                                         </li>
                                         <li>
                                             <a class="dropdown-item" href="#">Distance Learning Toolkit</a>
@@ -46,13 +46,13 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active btn" aria-current="page" href="#">Blog</a>
+                                    <a class="nav-link active btn" aria-current="page" href="blog.php">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active btn" aria-current="page" href="#">Support</a>
+                                    <a class="nav-link active btn" aria-current="page" href="support.php">Support</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active btn" aria-current="page" href="#">Getting Started</a>
+                                    <a class="nav-link active btn" aria-current="page" href="getting-started.php">Getting Started</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link active btn" aria-current="page" href="#"
@@ -68,7 +68,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <div class="signup">
-                                        <a class="nav-link active" aria-current="page" href="#"
+                                        <a class="nav-link active" aria-current="page" href="signup.php"
                                             style="background-color: #FFCA28;color: #1B1E83;">Sign
                                             Up</a>
                                     </div>
