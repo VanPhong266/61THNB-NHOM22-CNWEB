@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edmodo</title>
+    <title>Teachers-Edmodo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="shortcut icon" type="image/png" href="assets/img/icon.png">
@@ -25,13 +25,13 @@
                     </a>
                     <ul class="subnav">
                         <li><a href="LearnMore-Teachers.php">Teachers</a></li>
-                        </hr>
+                        </br>
                         <li><a href="LearnMore-Students.php">Students</a></li>
-                        </hr>
+                        </br>
                         <li><a href="LearnMore-Parents.php">Parents</a></li>
-                        </hr>
-                        <li><a href="">Schools, Districts, &amp; Organizations</a></li>
-                        </hr>
+                        </br>
+                        <li><a href="Learnmore-School.php">Schools, Districts, &amp; Organizations</a></li>
+                        </br>
                         <li><a href="">Distance Learning Toolkit</a></li>
                     </ul>
                 </li>
@@ -39,9 +39,9 @@
                 <li><a href="support.php">Support</a></li>
                 <li><a href="getting-started.php">Getting Started</a></li>
                 <li>
-                            <a class="nav-link active btn" aria-current="page" href="#" style="background-color: rgb(8, 8, 94); color: rgb(247, 247, 247)">
-                                Schools & Districts</a>
-                        </li>
+                    <a class="nav-link active btn" aria-current="page" href="#" style="background-color: rgb(8, 8, 94); color: rgb(247, 247, 247)">
+                        Schools & Districts</a>
+                </li>
                 <div id="login-signup">
                     <li><a href="login.php">Login</a></li>
                     <li style="background-color: #ffca28;"><a href="signup.php">Sign Up</a></li>
@@ -50,97 +50,53 @@
             </hr>
         </div>
 
-        <div id="learnmore">
-            <div style="box-sizing: border-box;" class="distance-learning-banner">
-                <div class="container">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-1">
-                                <div class="image-fluid rounded">
-                                    <img src="assets/img/icon phone.png" width="72" height="72" style="margin-top: 3px;" alt="">
-                                </div>
-                            </div>
-                            <div class="col-md-10">
-                                <div class="text">
-                                    <div class="title">
-                                        <h4>Check out Edmodo's learning solutions!
-                                        </h4>
-                                    </div>
-                                    <div class="main-text">
-                                        <span>As a response to emerging educational needs, we are continually evolving
-                                            to
-                                            meet the needs of educators and learners around the world.
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-1"><button style="margin-top: 10px;background-color: #1a237e;border-color: #1a237e;" class="btn btn-primary" name="button" value="OK" type="button" onclick="hello()">Learn more</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div style="margin-left: 88px; margin-right: 88px;" id="content">
             <div class="main_about row">
                 <div class="col-md-6">
-                    <img src="assets/img/1.webp" alt="" class="img-fluid rounded">
+                    <img src="assets/img/Parents-1.png" alt="" class="img-fluid rounded">
                 </div>
                 <div style="margin-top: 100px; margin-bottom: 100px;" class="col-md-6">
-                    <h1>Learn Better Together</h1>
-                    <p>Manage your classroom. Engage your students.</p>
-                    <p>Safe. Simple. Free.</p>
-                    <button style="background-color: #ffc107; text-decoration:none;"><span href="signup.php">Sign
-                            up for a
-                            free account</span></button>
+                    <h1 style="color: rgb(8, 8, 94);">Your window into
+                        the classroom</h1>
+                    <p>Get the info you need to support your child’s learning at home along with the resources they need to succeed at school.</p>
+                    <button style="background-color: #ffc107; text-decoration:none;"><a href="signup.php">Create a Parent Account</a></button>
                 </div>
             </div>
             <hr>
             <div class="main_about row">
                 <div style="margin-top: 100px; margin-bottom: 100px;" class="col-md-6">
-                    <span>FOR EDUCATORS</span>
-                    <h1>Tools that teachers need</h1>
-                    <p>Send messages, share class materials, and make learning accessible anywhere.
-                        Save
-                        yourself time by bringing all your classroom tools together.</p>
-                    <a style="color: #fd7e14;" href="LearnMore-Teachers.php">Show me how</a>
+                    <h1 style="color: rgb(8, 8, 94);">Automatic updates in real time</h1>
+                    <p>Now you won’t have to wait for your child to show you their grades. See assignment and quiz scores as soon as they are graded by your child’s teacher.</p>
+                    <a style="color: #fd7e14;" href="getting-started.php">Get started for free</a>
                 </div>
                 <div class="col-md-6">
-                    <img src="assets/img/2.webp" alt="" class="img-fluid rounded">
+                    <img src="assets/img/Parents-2.png" alt="" class="img-fluid rounded">
                 </div>
             </div>
             <hr>
             <div class="main_about row">
                 <div class="col-md-6">
-                    <img src="assets/img/3.webp" alt="" class="img-fluid rounded">
+                    <img src="assets/img/Parents-3.png" alt="" class="img-fluid rounded">
                 </div>
                 <div style="margin-top: 100px; margin-bottom: 100px;" class="col-md-6">
-                    <span>FOR STUDENTS</span>
-                    <h1>A platform students love</h1>
-                    <p>Raise your confidence, find your voice, and experience what it means to be a
-                        digital
-                        citizen.
+                    <h1 style="color: rgb(8, 8, 94);">Stay in touch with teachers</h1>
+                    <p>Students thrive when their parents and teachers are in sync. With Edmodo, it’s easy to send your child’s teachers a direct message or follow class updates.
                     </p>
-                    <p>Empower your learning and become part of a vibrant classroom community.</p>
-                    <a style="color: #fd7e14;" href="LearnMore-Students.php">Learn more</a>
+                    <a style="color: #fd7e14;" href="getting-started.php">Get started for free</a>
                 </div>
             </div>
             <hr>
             <div class="main_about row">
                 <div style="margin-top: 100px; margin-bottom: 100px;" class="col-md-6">
-                    <span>FOR FAMILIES</span>
-                    <h1>Updates that parents want</h1>
-                    <p>Get class updates, stay in sync with teachers, and support learning at home. See
-                        classroom activity and grades at a glance to help students stay on track.</p>
-                    <a style="color: #fd7e14;" href="LearnMore-Parents.php">Tell me more</a>
+                    <h1 style="color: rgb(8, 8, 94);">Connect anytime, anywhere</h1>
+                    <p>School updates are just a tap away. Keep track of your child’s progress wherever you are with the Edmodo for Parents mobile app.</p>
+                    <a style="color: #fd7e14;" href="getting-started.php">Get started for free</a>
                 </div>
                 <div class="col-md-6">
-                    <img src="assets/img/4.webp" alt="" class="img-fluid rounded">
+                    <img src="assets/img/Parents-4.png" alt="" class="img-fluid rounded">
                 </div>
             </div>
         </div>
-
 
         <hr>
         <div id="footer">

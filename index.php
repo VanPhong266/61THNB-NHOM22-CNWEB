@@ -87,9 +87,9 @@
                     <h1>Learn Better Together</h1>
                     <p>Manage your classroom. Engage your students.</p>
                     <p>Safe. Simple. Free.</p>
-                    <button style="background-color: #ffc107; text-decoration:none;"><span href="signup.php">Sign
+                    <button style="background-color: #ffc107; text-decoration:none;"><a href="signup.php">Sign
                             up for a
-                            free account</span></button>
+                            free account</a></button>
                 </div>
             </div>
             <hr>
@@ -215,4 +215,3 @@
 </body>
 
 </html>
-
