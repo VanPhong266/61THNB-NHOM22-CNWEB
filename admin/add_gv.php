@@ -9,7 +9,9 @@
 ?>
     <main>
     <div class="container">
-        <h5 class="text-center text-primary mt-5">Thêm mới Danh bạ nhân viên</h5>
+    <button><a href="index.php">Back</a></button>
+
+        <h5 class="text-center text-primary mt-5">Thêm mới Thông tin Giáo Viên</h5>
         <!-- Form thêm Dữ liệu nhân viên -->
         <form action="procees-add-gv.php" method="POST">
             <div class="form-group">

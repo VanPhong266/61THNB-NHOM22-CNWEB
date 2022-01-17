@@ -32,6 +32,7 @@
 ?>
     <main>
     <div class="container">
+        <button><a href="index.php">Back</a></button>
         <h5 class="text-center text-primary mt-5">Cập nhật thông tin giáo viên</h5>
         <!-- Form thêm Dữ liệu nhân viên -->
         <form action="process-update.php" method="post">

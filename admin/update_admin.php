@@ -32,6 +32,7 @@
 ?>
     <main>
     <div class="container">
+    <button><a href="manage-admin.php">Back</a></button>
         <h5 class="text-center text-primary mt-5">Cập nhật thông tin Admin</h5>
         <!-- Form thêm Dữ liệu nhân viên -->
         <form action="process-update-admin.php" method="POST">

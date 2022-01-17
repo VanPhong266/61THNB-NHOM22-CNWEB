@@ -10,7 +10,7 @@
 ?>
     <main>
         <div class="container">
-        <button><a href="admin.php">Back</a></button>
+        <button><a href="index.php">Back</a></button>
             <h5 class="text-center text-primary mt-5">Quản Lý Thông Tin Admin</h5>
             <div  class="mt-3">
                 <a class="btn btn-primary" href="add_admin.php">Thêm Admin <i class="bi bi-person-plus-fill"> </i></a>
