@@ -52,7 +52,7 @@
                 <input type="text" class="form-control" id="txtEmail" name="txtEmail" placeholder="Nhập giới tính" value="<?php echo $row['email']; ?>">
                 <!-- <small id="txtHoTenHelp" class="form-text text-muted">Có thể dùng nó hiển thị thông báo lỗi hoặc gợi ý</small> -->
             </div>
-            <button type="submit" class="btn btn-primary mt-3">Lưu lại</button>
+                <button type="submit" class="btn btn-primary mt-3">Lưu lại</button>
             </div>
             
         </form>

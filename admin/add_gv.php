@@ -34,9 +34,9 @@
                 <input type="tel" class="form-control" id="txttrinhdo" name="txttrinhdo" placeholder="Nhập Trình Độ">
                 
             </div>
-
-            </div>
             <button type="submit" class="btn btn-primary mt-3">Lưu lại</button>
+            </div>
+            
         </form>
     </div>    
     </main>

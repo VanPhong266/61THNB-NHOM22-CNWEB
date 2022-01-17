@@ -14,7 +14,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container ">
                 <a class="navbar-brand mx-auto order-0" href="index.php">
-                    <img src="/assets/img/edmodo.png" alt="" class="ed-logo">
+                    <h3>Quản lý trang Edmono</h3>
                 </a>
             </div>
             </nav>
