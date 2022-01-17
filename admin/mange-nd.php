@@ -11,15 +11,15 @@
     <main>
         <div class="container">
         <button><a href="admin.php">Back</a></button>
-            <h5 class="text-center text-primary mt-5">Quản Lý Thông Tin Admin</h5>
+            <h5 class="text-center text-primary mt-5">Quản Lý Thông Tin Người Dùng</h5>
             <div  class="mt-3">
-                <a class="btn btn-primary" href="add_admin.php">Thêm Admin <i class="bi bi-person-plus-fill"> </i></a>
+                <a class="btn btn-primary" href="add_admin.php">Thêm người dùng <i class="bi bi-person-plus-fill"> </i></a>
             </div>
             <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col">Mã Admin</th>
-                        <th scope="col">Tên Đăng Nhập</th>
+                        <th scope="col">Mã Người dùng</th>
+                        <th scope="col">Tên Người dùng</th>
                         <th scope="col">Email</th>
                         <th scope="col">Sửa</th>
                         <th scope="col">Xóa</th>
@@ -35,18 +35,18 @@
                             die("Kết nối thất bại. Vui lòng kiểm tra lại các thông tin máy chủ");
                         }
                         // Bước 02: Thực hiện truy vấn
-                        $sql = "SELECT ma_nguoidung, tendangnhap , email FROM db_admin";
+                        $sql = "SELECT  id, name , email FROM nguoidung";
                         $result = mysqli_query($conn,$sql);
                         // Bước 03: Xử lý kết quả truy vấn
                         if(mysqli_num_rows($result) > 0){
                             while($row = mysqli_fetch_assoc($result)){
                     ?>
                                 <tr>
-                                    <th scope="row"><?php echo $row['ma_nguoidung']; ?></th>
-                                    <td><?php echo $row['tendangnhap']; ?></td>
+                                    <th scope="row"><?php echo $row['id']; ?></th>
+                                    <td><?php echo $row['name']; ?></td>
                                     <td><?php echo $row['email']; ?></td>   
-                                    <td><a href="update_admin.php?id=<?php echo $row['ma_nguoidung']; ?>"><i class="bi bi-pencil-square"></i></a></td>
-                                    <td><a href="delete_admin.php?id=<?php echo $row['ma_nguoidung']; ?>"><i class="bi bi-trash"></i></a></td>
+                                    <td><a href="update_admin.php?id=<?php echo $row['id']; ?>"><i class="bi bi-pencil-square"></i></a></td>
+                                    <td><a href="delete_admin.php?id=<?php echo $row['id']; ?>"><i class="bi bi-trash"></i></a></td>
                                 </tr>
                     <?php
                             }
